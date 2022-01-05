@@ -1,3 +1,5 @@
+version development
+
 import "MIGNON_tasks.wdl" as Mignon
 import "MIGNON_calling.wdl" as MignonVariantCalling
 
@@ -6,6 +8,7 @@ workflow MIGNON {
     ######################
     # WORKFLOW VARIABLES #
     ######################
+    input {
 
     # Required values
     Array[String] sample_id
@@ -17,10 +20,10 @@ workflow MIGNON {
     Boolean do_vc
     Array[File] input_fastq_r1
     Array[File] input_fastq_r2
-    String? hisat2_index_path
+    Directory? hisat2_index_path
     String? hisat2_index_prefix
-    String? star_index_path
-    String? salmon_index_path
+    Directory? star_index_path
+    Directory? salmon_index_path
     File? edger_script
     File? ensemblTx_script
     File? tximport_script
@@ -36,47 +39,47 @@ workflow MIGNON {
     File gtf_file
 
     # execution values
-    Int? fastp_cpu = 1
-    String? fastp_mem = "16G"
-    String? fastp_additional_parameters = ""
-    Int? fastqc_cpu = 1
-    String? fastqc_mem = "16G"
-    String? fastqc_additional_parameters = ""
-    Int? hisat2_cpu = 1
-    String? hisat2_mem = "16G"
-    String? hisat2_additional_parameters = ""
-    Int? sam2bam_cpu = 1
-    String? sam2bam_mem = "16G"
-    String? sam2bam_additional_parameters = ""
-    Int? star_cpu = 1
-    String? star_mem = "32G"
-    String? star_additional_parameters = ""
-    Int? salmon_cpu = 1
-    String?  salmon_mem = "16G"
-    String? salmon_additional_parameters = ""
-    Int? featureCounts_cpu = 1
-    String? featureCounts_mem = "16G"
-    String? featureCounts_additional_parameters = ""
-    Int? vep_cpu = 1
-    String? vep_mem = "16G"
-    Int? ensemblTx_cpu = 1
-    String? ensemblTx_mem = "16G"
-    Int? edger_cpu = 1
-    String? edger_mem = "16G"
-    Int? tximport_cpu = 1
-    String? tximport_mem = "16G"
-    Int? hipathia_cpu = 1
-    String? hipathia_mem = "16G"
-    Int? filterBam_cpu = 1
-    String? filterBam_mem = "16G"
-    String? filterBam_additional_parameters = ""
+    Int fastp_cpu = 1
+    String fastp_mem = "16GB"
+    String fastp_additional_parameters = ""
+    Int fastqc_cpu = 1
+    String fastqc_mem = "16GB"
+    String fastqc_additional_parameters = ""
+    Int hisat2_cpu = 1
+    String hisat2_mem = "16GB"
+    String hisat2_additional_parameters = ""
+    Int sam2bam_cpu = 1
+    String sam2bam_mem = "16GB"
+    String sam2bam_additional_parameters = ""
+    Int star_cpu = 1
+    String star_mem = "32GB"
+    String star_additional_parameters = ""
+    Int salmon_cpu = 1
+    String  salmon_mem = "16GB"
+    String salmon_additional_parameters = ""
+    Int featureCounts_cpu = 1
+    String featureCounts_mem = "16GB"
+    String featureCounts_additional_parameters = ""
+    Int vep_cpu = 1
+    String vep_mem = "16GB"
+    Int ensemblTx_cpu = 1
+    String ensemblTx_mem = "16GB"
+    Int edger_cpu = 1
+    String edger_mem = "16GB"
+    Int tximport_cpu = 1
+    String tximport_mem = "16GB"
+    Int hipathia_cpu = 1
+    String hipathia_mem = "16GB"
+    Int filterBam_cpu = 1
+    String filterBam_mem = "16GB"
+    String filterBam_additional_parameters = ""
 
     # number of parallel tasks during variant calling
     Int? haplotype_scatter_count = 1
 
     # normalization and values
     Int? edger_min_counts = 15  
-    Boolean? hipathia_normalize = true    
+    Boolean hipathia_normalize = true    
     Float? hipathia_ko_factor = 0.01    
     Float vep_sift_cutoff = 0.05
     Float vep_polyphen_cutoff = 0.95    
@@ -84,15 +87,15 @@ workflow MIGNON {
     # other values
     String? salmon_library_type = "A"
     File? tx2gene_file    
-    String? rg_platform = "Unknown"
-    String? rg_center = "Unknown"
+    String rg_platform = "Unknown"
+    String rg_center = "Unknown"
     Int? min_confidence_for_variant_calling 
     File? ref_gz_index
     File? intervals
     File? input_bai
 
     # additional execution parameters
-
+    }
     ###############
     # TASK CALLER #
     ###############
@@ -204,7 +207,6 @@ workflow MIGNON {
         }
 
         if (execution_mode == "salmon" || execution_mode == "salmon-star" || execution_mode == "salmon-hisat2") {
-            
             # salmon
             call Mignon.salmon as salmon {
 
@@ -272,7 +274,7 @@ workflow MIGNON {
                 input:
                     vcf_file = VariantCalling.variant_filtered_vcf,
                     output_file = sample + ".txt",
-                    cache_dir = vep_cache_dir,
+                    cache_dir = select_first([vep_cache_dir]),
                     sift_cutoff = vep_sift_cutoff,
                     polyphen_cutoff = vep_polyphen_cutoff,
                     cpu = vep_cpu,
@@ -310,7 +312,7 @@ workflow MIGNON {
             call Mignon.ensemblTx2Gene as ensembldb {
 
                 input:
-                    ensembldb_script = ensemblTx_script,
+                    ensembldb_script = select_first([ensemblTx_script]),
                     gtf = gtf_file,
                     output_tx2gene = "tx2gene.tsv",
                     cpu = ensemblTx_cpu,
@@ -329,10 +331,10 @@ workflow MIGNON {
             input:
                 tx2gene = tx2gene,
                 output_counts = "counts.tsv",
-                quant_files = salmon.quant,
+                quant_files = select_all(salmon.quant),
                 quant_tool = "salmon",
                 sample_ids = sample_id,
-                tximport_script = tximport_script,
+                tximport_script = select_first([tximport_script]),
                 cpu = tximport_cpu,
                 mem = tximport_mem            
 
@@ -345,7 +347,7 @@ workflow MIGNON {
         
         input:
             counts = select_first([txImport.counts, featureCounts.counts]),
-            edger_script = edger_script,
+            edger_script = select_first([edger_script]),
             samples = sample_id,
             group = group,
             min_counts = edger_min_counts,
@@ -359,12 +361,12 @@ workflow MIGNON {
         
         input:
             cpm_file = edgeR.logcpms_hipathia,
-            hipathia_script = hipathia_script,
+            hipathia_script = select_first([hipathia_script]),
             samples = sample_id,
             group = group,
             normalize_by_length = hipathia_normalize,
             do_vc = do_vc,
-            input_vcfs = vep.output_vcf,
+            input_vcfs = select_all(vep.output_vcf),
             ko_factor = hipathia_ko_factor,
             cpu = hipathia_cpu,
             mem = hipathia_mem

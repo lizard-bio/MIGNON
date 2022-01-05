@@ -1,18 +1,21 @@
+version development
+
 task fastp {
+    input {
+        File input_fastq_r1
+        File? input_fastq_r2
 
-    File input_fastq_r1
-    File? input_fastq_r2
+        String output_fastq_r1
+        String? output_fastq_r2
 
-    String output_fastq_r1
-    String? output_fastq_r2
+        String output_json
+        String output_html
 
-    String output_json
-    String output_html
+        Int? cpu 
+        String? mem 
 
-    Int? cpu 
-    String? mem 
-
-    String? additional_parameters
+        String? additional_parameters
+    }
 
     command {
 
@@ -30,8 +33,8 @@ task fastp {
     runtime {
 
       docker: "quay.io/biocontainers/fastp:0.20.0--hdbcaa40_0"    
-      cpu: cpu
-      requested_memory: mem
+      cpu: select_first([cpu])
+      memory: select_first([mem])
 
     }
 
@@ -48,6 +51,7 @@ task fastp {
 
 # FASTQC
 task fastqc {
+    input {
   
     File input_fastq_r1
     File? input_fastq_r2
@@ -59,6 +63,7 @@ task fastqc {
     String? mem 
 
     String? additional_parameters
+    }
 
     command {
 
@@ -71,8 +76,8 @@ task fastqc {
     runtime {
 
       docker: "biocontainers/fastqc:v0.11.5_cv4"    
-      cpu: cpu
-      requested_memory: mem
+      cpu: select_first([cpu])
+      memory: select_first([mem])
 
     }
 
@@ -87,13 +92,13 @@ task fastqc {
 
 # HISAT2
 task hisat2 {
-  
+    input {
     File input_fastq_r1
     File? input_fastq_r2
     Boolean is_paired_end
 
-    String index_path
-    String index_prefix
+    Directory? index_path
+    String? index_prefix
 
     String output_sam
     String output_summary
@@ -108,6 +113,7 @@ task hisat2 {
     String? additional_parameters
     
     String opt_fastq_r1 = if (is_paired_end) then "-1" else "-U"
+    }
 
     command {
 
@@ -125,8 +131,8 @@ task hisat2 {
     runtime {
 
       docker: "quay.io/biocontainers/hisat2:2.1.0--py27h6bb024c_3"    
-      cpu: cpu
-      requested_memory: mem
+      cpu: select_first([cpu])
+      memory: select_first([mem])
       docker_volume: index_path
 
     }
@@ -142,7 +148,7 @@ task hisat2 {
 
 # SAM2BAM
 task sam2bam {
-  
+    input {
     File input_sam
     String output_bam
 
@@ -150,7 +156,7 @@ task sam2bam {
     String? mem 
 
     String? additional_parameters
-
+    }
     command {
 
       samtools sort ${input_sam} ${additional_parameters} --threads ${cpu} -O BAM -o ${output_bam}
@@ -160,8 +166,8 @@ task sam2bam {
     runtime {
 
       docker: "quay.io/biocontainers/samtools:1.9--h8571acd_11"    
-      cpu: cpu
-      requested_memory: mem
+      cpu: select_first([cpu])
+      memory: select_first([mem])
 
     }
 
@@ -175,12 +181,12 @@ task sam2bam {
 
 # STAR
 task star {
-  
+  input {
     File input_fastq_r1
     File? input_fastq_r2
-    String? compression
+    Directory? index_path
 
-    String index_path
+    String? compression
 
     String output_prefix
 
@@ -190,6 +196,7 @@ task star {
     String? additional_parameters
 
     String opt_compression = if (compression == ".gz") then "--readFilesCommand zcat" else ""
+  }
 
     command {
 
@@ -206,8 +213,8 @@ task star {
     runtime {
 
       docker: "quay.io/biocontainers/star:2.7.2b--0"  
-      cpu: cpu
-      requested_memory: mem
+      cpu: select_first([cpu])
+      memory: select_first([mem])
       docker_volume: index_path
 
     }
@@ -223,12 +230,12 @@ task star {
 
 # SALMON
 task salmon {
-  
+    input {
     File input_fastq_r1
     File? input_fastq_r2
     Boolean is_paired_end
 
-    String index_path
+    Directory? index_path
 
     String? library_type
 
@@ -240,6 +247,7 @@ task salmon {
     String? additional_parameters
 
     String opt_fastq_r1 = if (is_paired_end) then "-1" else "-r"
+    }
 
     command {
 
@@ -254,8 +262,8 @@ task salmon {
     runtime {
 
       docker: "quay.io/biocontainers/salmon:0.13.0--h86b0361_2"
-      cpu: cpu
-      requested_memory: mem
+      cpu: select_first([cpu])
+      memory: select_first([mem])
       docker_volume: index_path
 
     }
@@ -270,7 +278,7 @@ task salmon {
 
 # FEATURECOUNTS
 task featureCounts {
-  
+    input {
     Array[File?] input_alignments
 
     File gtf
@@ -281,7 +289,7 @@ task featureCounts {
     String? mem 
 
     String? additional_parameters
-
+    }
     command {
 
       featureCounts ${additional_parameters} \
@@ -295,8 +303,8 @@ task featureCounts {
     runtime {
 
       docker: "quay.io/biocontainers/subread:1.6.4--h84994c4_1"
-      cpu: cpu
-      requested_memory: mem
+      cpu: select_first([cpu])
+      memory: select_first([mem])
 
     }
 
@@ -311,7 +319,7 @@ task featureCounts {
 
 # ENSEMBLDB TX2GENE
 task ensemblTx2Gene {
-
+    input {
     File ensembldb_script
   
     File gtf   
@@ -320,6 +328,7 @@ task ensemblTx2Gene {
     String? job_id
     Int? cpu 
     String? mem 
+    }
     
     command {
 
@@ -331,8 +340,8 @@ task ensemblTx2Gene {
     runtime {
 
       docker: "quay.io/biocontainers/bioconductor-ensembldb:2.6.3--r351_0"    
-      cpu: cpu
-      requested_memory: mem
+      cpu: select_first([cpu])
+      memory: select_first([mem])
 
     }
 
@@ -346,8 +355,8 @@ task ensemblTx2Gene {
 
 # TXIMPORT
 task tximport {
-
-    Array[File?] quant_files
+    input {
+    Array[File] quant_files
     File? tx2gene 
     String output_counts
     String quant_tool
@@ -356,6 +365,7 @@ task tximport {
 
     Int? cpu 
     String? mem 
+    }
     
     command {
 
@@ -369,8 +379,8 @@ task tximport {
     runtime {
 
       docker: "quay.io/biocontainers/bioconductor-tximport:1.10.0--r351_0"  
-      cpu: cpu
-      requested_memory: mem
+      cpu: select_first([cpu])
+      memory: select_first([mem])
 
     }
 
@@ -384,7 +394,7 @@ task tximport {
 
 # EDGER
 task edgeR {
-  
+  input {
     File? counts
     Array[String] samples
     Array[String] group
@@ -394,6 +404,7 @@ task edgeR {
 
     Int? cpu 
     String? mem 
+  }
 
     command {
 
@@ -407,8 +418,8 @@ task edgeR {
     runtime {
 
       docker: "quay.io/biocontainers/bioconductor-edger:3.28.0--r36he1b5a44_0"    
-      cpu: cpu
-      requested_memory: mem
+      cpu: select_first([cpu])
+      memory: select_first([mem])
 
     }
 
@@ -425,7 +436,7 @@ task edgeR {
 
 # HIPATHIA
 task hipathia {
-  
+    input {
     File? cpm_file
     Array[String] samples
     Array[String] group
@@ -433,13 +444,14 @@ task hipathia {
     Boolean normalize_by_length
     Boolean do_vc
 
-    Array[File?] input_vcfs
+    Array[File] input_vcfs
     Float? ko_factor
     
     File hipathia_script
 
     Int? cpu 
     String? mem 
+    }
 
     command {
       
@@ -456,8 +468,8 @@ task hipathia {
     runtime {
 
       docker: "quay.io/biocontainers/bioconductor-hipathia:2.2.0--r36_0"    
-      cpu: cpu
-      requested_memory: mem
+      cpu: select_first([cpu])
+      memory: select_first([mem])
 
     }
 
@@ -473,7 +485,7 @@ task hipathia {
 
 # FILTERUNMAPED
 task filterBam {
-  
+    input {
     File input_bam
     String output_bam
 
@@ -481,6 +493,7 @@ task filterBam {
     String? mem 
 
     String? additional_parameters
+    }
 
     command {
 
@@ -491,8 +504,8 @@ task filterBam {
     runtime {
 
       docker: "quay.io/biocontainers/samtools:1.9--h8571acd_11"    
-      cpu: cpu
-      requested_memory: mem
+      cpu: select_first([cpu])
+      memory: select_first([mem])
 
     }
 
@@ -506,7 +519,7 @@ task filterBam {
 
 # VEP
 task vep {
-
+    input {
     File vcf_file
 
     # [0 most deleterious, 1 least deleterious]
@@ -519,6 +532,7 @@ task vep {
 
     Int? cpu 
     String? mem 
+    }
     
     command {
 
@@ -532,8 +546,8 @@ task vep {
 
       docker: "ensemblorg/ensembl-vep:release_99.1" 
       docker_volume: cache_dir
-      cpu: cpu
-      requested_memory: mem
+      cpu: select_first([cpu])
+      memory: select_first([mem])
 
     }
 

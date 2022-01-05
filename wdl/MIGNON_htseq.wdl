@@ -1,3 +1,5 @@
+version development
+
 import "MIGNON_tasks.wdl" as Mignon
 import "MIGNON_calling.wdl" as MignonVariantCalling
 import "MIGNON_htseq_tasks.wdl" as MignonHtSeq
@@ -7,7 +9,7 @@ workflow MIGNON {
     ######################
     # WORKFLOW VARIABLES #
     ######################
-
+    input {
     # required inputs
     Array[File] input_fastq_r1
     Array[File] input_fastq_r2
@@ -19,16 +21,16 @@ workflow MIGNON {
     String execution_mode
     Boolean do_vc
     File gtf_file
-    String? hisat2_index_path
+    Directory? hisat2_index_path
     String? hisat2_index_prefix
     String? hisat2_sample_id
-    String? star_index_path
-    String? salmon_index_path
+    Directory? star_index_path
+    Directory? salmon_index_path
     File? edger_script
     File? ensemblTx_script
     File? tximport_script
     File? hipathia_script
-    String? vep_cache_dir
+    Directory? vep_cache_dir = "cache"
     File? ref_fasta
     File? ref_fasta_index
     File? ref_dict
@@ -76,8 +78,8 @@ workflow MIGNON {
     String? tximport_mem = "16G"
     Int? hipathia_cpu = 1
     String? hipathia_mem = "16G"
-    String? rg_platform = "Unknown"
-    String? rg_center = "Unknown"
+    String rg_platform = "Unknown"
+    String rg_center = "Unknown"
     Int? min_confidence_for_variant_calling 
     File? ref_gz_index
     File? intervals
@@ -91,6 +93,7 @@ workflow MIGNON {
     String? star_additional_parameters = ""
     String? salmon_additional_parameters = ""
     String? filterBam_additional_parameters = ""
+    }
 
     ###############
     # TASK CALLER #
@@ -344,7 +347,7 @@ workflow MIGNON {
             input:
                 tx2gene = tx2gene,
                 output_counts = "salmon_counts.tsv",
-                quant_files = salmon.quant,
+                quant_files = select_all(salmon.quant),
                 quant_tool = "salmon",
                 sample_ids = sample_id,
                 tximport_script = tximport_script,

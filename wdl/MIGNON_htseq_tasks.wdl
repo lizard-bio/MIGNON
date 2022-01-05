@@ -1,3 +1,5 @@
+version development
+
 # 1 - HTSEQ
 task htseq {
   
@@ -16,8 +18,8 @@ task htseq {
 
     runtime {
       docker: "quay.io/biocontainers/htseq:0.6.1.post1--py27h76bc9d7_5"
-      cpu: cpu
-      requested_memory: mem
+      cpu: select_first([cpu])
+      memory: select_first([mem])
     }
 
     output {
@@ -44,8 +46,8 @@ task mergeCounts {
 
     runtime {
       docker: "r-base:4.0.3"
-      cpu: cpu
-      requested_memory: mem
+      cpu: select_first([cpu])
+      memory: select_first([mem])
     }
 
     output {

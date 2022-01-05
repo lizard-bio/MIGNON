@@ -1,5 +1,7 @@
+version development
+
 task IndexBam {
-    
+    input {
     File input_bam
 
     # runtime
@@ -8,6 +10,7 @@ task IndexBam {
     String mem = "32G"
 
     String base_name = basename(input_bam)
+    }
 
     command {
 
@@ -18,8 +21,8 @@ task IndexBam {
     runtime {
 
         docker: "quay.io/biocontainers/samtools:1.9--h8571acd_11"    
-        cpu: cpu
-        requested_memory: mem
+        cpu: select_first([cpu])
+        memory: select_first([mem])
         
     }
 
@@ -32,7 +35,7 @@ task IndexBam {
 }
 
 task ReorderBam {
-    
+    input {
     File input_bam
     File? input_bam_index
 
@@ -47,7 +50,7 @@ task ReorderBam {
     Int? max_retries
     Int? cpu = 1
     String mem = "32G"
-
+    }
     command {
 
         java -jar /usr/picard/picard.jar ReorderSam \
@@ -61,8 +64,8 @@ task ReorderBam {
     runtime {
 
         docker: "broadinstitute/picard:2.20.7"   
-        cpu: cpu
-        requested_memory: mem
+        cpu: select_first([cpu])
+        memory: select_first([mem])
         
     }
 
@@ -76,7 +79,7 @@ task ReorderBam {
 }
 
 task AddReadGroup {
-    
+    input {
     File input_bam
     File input_bam_index
     String base_name
@@ -88,6 +91,7 @@ task AddReadGroup {
     Int? max_retries
     Int? cpu = 1
     String mem = "32G"
+    }
 
     command {
 
@@ -108,8 +112,8 @@ task AddReadGroup {
 
     runtime {
         docker: "broadinstitute/picard:2.20.7"   
-        cpu: cpu
-        requested_memory: mem
+        cpu: select_first([cpu])
+        memory: select_first([mem])
         
     }
 
@@ -121,7 +125,7 @@ task AddReadGroup {
 }
 
 task MarkDuplicates {
-
+    input {
     File input_bam
     File input_bam_index
     String base_name
@@ -130,6 +134,7 @@ task MarkDuplicates {
     Int? max_retries
     Int? cpu = 1
     String mem = "32G"
+    }
 
     command {
 
@@ -145,8 +150,8 @@ task MarkDuplicates {
     runtime {
 
         docker: "broadinstitute/picard:2.20.7"    
-        cpu: cpu
-        requested_memory: mem
+        cpu: select_first([cpu])
+        memory: select_first([mem])
         
     }
 
@@ -159,7 +164,7 @@ task MarkDuplicates {
 }
 
 task SplitNCigarReads {
-
+    input {
     File input_bam
     File input_bam_index
     String base_name
@@ -173,6 +178,7 @@ task SplitNCigarReads {
     Int? max_retries
     Int? cpu = 1
     String mem = "32G"
+    }
     
 
     command {
@@ -185,8 +191,8 @@ task SplitNCigarReads {
 
     runtime {
         docker: "broadinstitute/gatk:4.1.3.0"    
-        cpu: cpu
-        requested_memory: mem
+        cpu: select_first([cpu])
+        memory: select_first([mem])
         
 
     }
@@ -199,7 +205,7 @@ task SplitNCigarReads {
 }
 
 task BaseRecalibrator {
-
+    input {
     File input_bam
     File input_bam_index
     String recal_output_file
@@ -218,6 +224,7 @@ task BaseRecalibrator {
     Int? max_retries
     Int? cpu = 1
     String mem = "32G"
+    }
     
 
     command {
@@ -234,8 +241,8 @@ task BaseRecalibrator {
 
     runtime {
         docker: "broadinstitute/gatk:4.1.3.0"    
-        cpu: cpu
-        requested_memory: mem
+        cpu: select_first([cpu])
+        memory: select_first([mem])
         
     }
 
@@ -246,7 +253,7 @@ task BaseRecalibrator {
 }
 
 task ApplyBQSR {
-
+    input {
     File input_bam
     File input_bam_index
     String base_name
@@ -261,7 +268,7 @@ task ApplyBQSR {
     Int? max_retries
     Int? cpu = 1
     String mem = "32G"
-    
+    }
 
     command {
 
@@ -276,8 +283,8 @@ task ApplyBQSR {
 
     runtime {
         docker: "broadinstitute/gatk:4.1.3.0"    
-        cpu: cpu
-        requested_memory: mem
+        cpu: select_first([cpu])
+        memory: select_first([mem])
         
     }
 
@@ -289,7 +296,7 @@ task ApplyBQSR {
 }
 
 task SplitIntervals {
-    
+    input {
     # inputs
     File? intervals
     File? ref_fasta
@@ -304,7 +311,7 @@ task SplitIntervals {
     Int? max_retries
     Int? cpu = 1
     String mem = "16G"
-    
+    }
 
     command {
 
@@ -323,8 +330,8 @@ task SplitIntervals {
     runtime {
 
         docker: "broadinstitute/gatk:4.1.3.0"    
-        cpu: cpu
-        requested_memory: mem
+        cpu: select_first([cpu])
+        memory: select_first([mem])
         
     }
 
@@ -335,7 +342,7 @@ task SplitIntervals {
 }
 
 task HaplotypeCaller {
-
+    input {
     File input_bam
     File input_bam_index
     String base_name
@@ -356,7 +363,7 @@ task HaplotypeCaller {
     String mem = "32G"
     
     Int? stand_call_conf
-
+    }
     command {
 
         gatk HaplotypeCaller \
@@ -372,7 +379,7 @@ task HaplotypeCaller {
     runtime {
         docker: "broadinstitute/gatk:4.1.3.0"    
         cpu: select_first([cpu, 1])
-        requested_memory: mem
+        memory: select_first([mem])
         
     }
 
@@ -383,7 +390,7 @@ task HaplotypeCaller {
 }
 
 task MergeVCFs {
-    
+    input {
     Array[File] input_vcfs
     Array[File] input_vcfs_indexes
     String output_vcf_name
@@ -392,6 +399,7 @@ task MergeVCFs {
     Int? max_retries
     Int? cpu = 1
     String mem = "32G"
+    }
     
     # Using MergeVcfs instead of GatherVcfs so we can create indices
     # See https://github.com/broadinstitute/picard/issues/789 for relevant GatherVcfs ticket
@@ -406,8 +414,8 @@ task MergeVCFs {
     runtime {
 
         docker: "broadinstitute/gatk:4.1.3.0"    
-        cpu: cpu
-        requested_memory: mem
+        cpu: select_first([cpu])
+        memory: select_first([mem])
         
     }
 
@@ -420,7 +428,7 @@ task MergeVCFs {
 }
 
 task VariantFiltration {
-
+    input {
     File input_vcf
     File input_vcf_index
     String base_name
@@ -434,6 +442,7 @@ task VariantFiltration {
     Int? max_retries
     Int? cpu = 1
     String mem = "32G"
+    }
 
     command {
 
@@ -453,8 +462,8 @@ task VariantFiltration {
     runtime {
 
         docker: "broadinstitute/gatk:4.1.3.0"    
-        cpu: cpu
-        requested_memory: mem
+        cpu: select_first([cpu])
+        memory: select_first([mem])
         
     }
 

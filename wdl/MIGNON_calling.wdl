@@ -1,35 +1,39 @@
+version development
+
 # Variant calling for RNASeq
 import "MIGNON_calling_tasks.wdl" as Calling
 
 workflow VariantCalling {
+    input {
 
-    # input bam files
-    File input_bam
-    File? input_bai
-    File? intervals
+        # input bam files
+        File input_bam
+        File? input_bai
+        File? intervals
 
-    File? refFasta
-    File? refFastaIndex
-    File? refDict
-    File? refGZIndex
+        File? refFasta
+        File? refFastaIndex
+        File? refDict
+        File? refGZIndex
 
-    String? sample_id
+        String? sample_id
 
-    File? dbSnpVcf
-    File? dbSnpVcfIndex
-    Array[File?] knownVcfs
-    Array[File?] knownVcfsIndices
+        File? dbSnpVcf
+        File? dbSnpVcfIndex
+        Array[File?] knownVcfs
+        Array[File?] knownVcfsIndices
 
-    Int? minConfidenceForVariantCalling
+        Int? minConfidenceForVariantCalling
 
-    String sampleName
-    String alignment_method
-    String? rg_platform
-    String? rg_center
+        String sampleName
+        String alignment_method
+        String rg_platform
+        String rg_center
 
-    Int? indexBam_cpu = 1
+        Int indexBam_cpu = 1
 
-    Int? haplotypeScatterCount = 1
+        Int haplotypeScatterCount = 1
+    }
 
     if (!defined(input_bai)){
 
@@ -199,5 +203,4 @@ workflow VariantCalling {
         File variant_filtered_vcf_index = VariantFiltration.output_vcf_index
 
     }
-
 }
