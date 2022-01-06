@@ -477,7 +477,7 @@ task hipathia {
 
         File diff_signaling = "differential_signaling.tsv"
         File path_values = "path_values.tsv"
-        File? ko_matrix = "ko_matrix.tsv"
+        File? kfo_matrix = "ko_matrix.tsv"
 
     }
 
@@ -527,7 +527,7 @@ task vep {
     # [1 most damaging, 0 least damaging]
     Float polyphen_cutoff
 
-    String cache_dir
+    Directory cache_dir
     String output_file
 
     Int? cpu 
@@ -535,7 +535,6 @@ task vep {
     }
     
     command {
-
       /opt/vep/src/ensembl-vep/vep --dir_cache ${cache_dir} --offline --sift s --polyphen s --fork ${cpu} -i ${vcf_file} -o variants_annotated.txt
 
       /opt/vep/src/ensembl-vep/filter_vep -i variants_annotated.txt -o ${output_file} -f "SIFT < ${sift_cutoff} and PolyPhen > ${polyphen_cutoff}"

@@ -28,7 +28,7 @@ workflow MIGNON {
     File? ensemblTx_script
     File? tximport_script
     File? hipathia_script
-    String? vep_cache_dir
+    Directory? vep_cache_dir
     File? ref_fasta
     File? ref_fasta_index
     File? ref_dict
@@ -75,7 +75,7 @@ workflow MIGNON {
     String filterBam_additional_parameters = ""
 
     # number of parallel tasks during variant calling
-    Int? haplotype_scatter_count = 1
+    Int haplotype_scatter_count = 1
 
     # normalization and values
     Int? edger_min_counts = 15  

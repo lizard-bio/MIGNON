@@ -30,7 +30,7 @@ workflow MIGNON {
     File? ensemblTx_script
     File? tximport_script
     File? hipathia_script
-    Directory? vep_cache_dir = "cache"
+    Directory vep_cache_dir = "cache"
     File? ref_fasta
     File? ref_fasta_index
     File? ref_dict

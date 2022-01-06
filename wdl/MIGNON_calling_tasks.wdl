@@ -212,8 +212,8 @@ task BaseRecalibrator {
 
     File? dbSNP_vcf
     File? dbSNP_vcf_index
-    Array[File?] known_indels_sites_VCFs
-    Array[File?] known_indels_sites_indices
+    Array[File] known_indels_sites_VCFs
+    Array[File] known_indels_sites_indices
 
     File? ref_dict
     File? ref_fasta
@@ -234,8 +234,8 @@ task BaseRecalibrator {
             -I ${input_bam} \
             --use-original-qualities \
             -O ${recal_output_file} \
-            -known-sites ${dbSNP_vcf} \
-            -known-sites ${sep=" --known-sites " known_indels_sites_VCFs}
+            --known-sites ${dbSNP_vcf} \
+            --known-sites ${sep=" --known-sites " known_indels_sites_VCFs}
 
     }
 
@@ -319,7 +319,7 @@ task SplitIntervals {
         gatk SplitIntervals \
             -R ${ref_fasta} \
             ${"-L " + intervals} \
-            -scatter ${scatter_count} \
+            --scatter-count ${scatter_count} \
             -O interval-files \
             --subdivision-mode BALANCING_WITHOUT_INTERVAL_SUBDIVISION_WITH_OVERFLOW \
             ${split_intervals_extra_args}
