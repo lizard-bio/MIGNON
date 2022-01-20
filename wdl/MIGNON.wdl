@@ -28,7 +28,7 @@ workflow MIGNON {
     File? ensemblTx_script
     File? tximport_script
     File? hipathia_script
-    Directory? vep_cache_dir
+    File? vep_cache_dir
     File? ref_fasta
     File? ref_fasta_index
     File? ref_dict
@@ -274,7 +274,7 @@ workflow MIGNON {
                 input:
                     vcf_file = VariantCalling.variant_filtered_vcf,
                     output_file = sample + ".txt",
-                    cache_dir = select_first([vep_cache_dir]),
+                    cache_dir_gz = select_first([vep_cache_dir]),
                     sift_cutoff = vep_sift_cutoff,
                     polyphen_cutoff = vep_polyphen_cutoff,
                     cpu = vep_cpu,

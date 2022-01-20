@@ -520,21 +520,25 @@ task filterBam {
 # VEP
 task vep {
     input {
-    File vcf_file
+      File vcf_file
 
-    # [0 most deleterious, 1 least deleterious]
-    Float sift_cutoff
-    # [1 most damaging, 0 least damaging]
-    Float polyphen_cutoff
+      # [0 most deleterious, 1 least deleterious]
+      Float sift_cutoff
+      # [1 most damaging, 0 least damaging]
+      Float polyphen_cutoff
 
-    Directory cache_dir
-    String output_file
+      File cache_dir_gz
+      String output_file
 
-    Int? cpu 
-    String? mem 
+      Int? cpu 
+      String? mem 
     }
+
+    String cache_dir = sub(basename(cache_dir_gz), "\\.tar.gz$","")
     
     command {
+      tar -xzvf "${cache_dir_gz}"
+      
       /opt/vep/src/ensembl-vep/vep --dir_cache ${cache_dir} --offline --sift s --polyphen s --fork ${cpu} -i ${vcf_file} -o variants_annotated.txt
 
       /opt/vep/src/ensembl-vep/filter_vep -i variants_annotated.txt -o ${output_file} -f "SIFT < ${sift_cutoff} and PolyPhen > ${polyphen_cutoff}"
