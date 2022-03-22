@@ -1,0 +1,1392 @@
+[2022-02-02 14:10:12,51] [info] Running with database db.url = 
+    jdbc:hsqldb:file:cromwell-executions/cromwell-db/cromwell-db;
+    shutdown=false;
+    hsqldb.default_table_type=cached;hsqldb.tx=mvcc;
+    hsqldb.result_max_memory_rows=500000;
+    hsqldb.large_data=true;
+    hsqldb.applog=1;
+    hsqldb.log_compressed=true;
+    hsqldb.script_format=3
+    
+[2022-02-02 14:10:12,89] [info] dataFileCache open start
+[2022-02-02 14:10:13,01] [info] dataFileCache open end
+[2022-02-02 14:10:34,35] [info] checkpointClose start
+[2022-02-02 14:10:34,36] [info] checkpointClose synched
+[2022-02-02 14:10:36,65] [info] checkpointClose script done
+[2022-02-02 14:10:36,65] [info] dataFileCache commit start
+[2022-02-02 14:10:36,99] [info] dataFileCache commit end
+[2022-02-02 14:10:37,02] [info] checkpointClose end
+Feb 02, 2022 2:10:37 PM liquibase.servicelocator
+INFO: Cannot load service: liquibase.license.LicenseService: liquibase.license.pro.DaticalTrueLicenseService Unable to get public no-arg constructor
+Feb 02, 2022 2:10:37 PM liquibase.database
+INFO: Set default schema name to PUBLIC
+[2022-02-02 14:10:37,16] [info] Checkpoint start
+[2022-02-02 14:10:37,16] [info] checkpointClose start
+[2022-02-02 14:10:37,16] [info] checkpointClose synched
+[2022-02-02 14:10:39,34] [info] checkpointClose script done
+[2022-02-02 14:10:39,34] [info] dataFileCache commit start
+[2022-02-02 14:10:39,35] [info] dataFileCache commit end
+[2022-02-02 14:10:39,35] [info] checkpointClose end
+[2022-02-02 14:10:39,36] [info] Checkpoint end - txts: 21996992
+[2022-02-02 14:10:39,49] [info] Checkpoint start
+[2022-02-02 14:10:39,49] [info] checkpointClose start
+[2022-02-02 14:10:39,49] [info] checkpointClose synched
+[2022-02-02 14:10:41,70] [info] checkpointClose script done
+[2022-02-02 14:10:41,70] [info] dataFileCache commit start
+[2022-02-02 14:10:41,71] [info] dataFileCache commit end
+[2022-02-02 14:10:41,72] [info] checkpointClose end
+[2022-02-02 14:10:41,72] [info] Checkpoint end - txts: 21997008
+Feb 02, 2022 2:10:41 PM liquibase.lockservice
+INFO: Successfully acquired change log lock
+[2022-02-02 14:10:41,72] [info] Checkpoint start
+[2022-02-02 14:10:41,72] [info] checkpointClose start
+[2022-02-02 14:10:41,72] [info] checkpointClose synched
+[2022-02-02 14:10:43,90] [info] checkpointClose script done
+[2022-02-02 14:10:43,90] [info] dataFileCache commit start
+[2022-02-02 14:10:43,90] [info] dataFileCache commit end
+[2022-02-02 14:10:43,91] [info] checkpointClose end
+[2022-02-02 14:10:43,91] [info] Checkpoint end - txts: 21997010
+Feb 02, 2022 2:10:44 PM liquibase.changelog
+INFO: Reading from PUBLIC.DATABASECHANGELOG
+[2022-02-02 14:10:44,90] [info] Checkpoint start
+[2022-02-02 14:10:44,90] [info] checkpointClose start
+[2022-02-02 14:10:44,90] [info] checkpointClose synched
+[2022-02-02 14:10:47,13] [info] checkpointClose script done
+[2022-02-02 14:10:47,13] [info] dataFileCache commit start
+[2022-02-02 14:10:47,13] [info] dataFileCache commit end
+[2022-02-02 14:10:47,15] [info] checkpointClose end
+[2022-02-02 14:10:47,15] [info] Checkpoint end - txts: 21997065
+[2022-02-02 14:10:47,15] [info] Checkpoint start
+[2022-02-02 14:10:47,15] [info] checkpointClose start
+[2022-02-02 14:10:47,15] [info] checkpointClose synched
+[2022-02-02 14:10:49,34] [info] checkpointClose script done
+[2022-02-02 14:10:49,34] [info] dataFileCache commit start
+[2022-02-02 14:10:49,35] [info] dataFileCache commit end
+[2022-02-02 14:10:49,36] [info] checkpointClose end
+[2022-02-02 14:10:49,36] [info] Checkpoint end - txts: 21997067
+[2022-02-02 14:10:49,52] [info] Checkpoint start
+[2022-02-02 14:10:49,52] [info] checkpointClose start
+[2022-02-02 14:10:49,52] [info] checkpointClose synched
+[2022-02-02 14:10:51,76] [info] checkpointClose script done
+[2022-02-02 14:10:51,76] [info] dataFileCache commit start
+[2022-02-02 14:10:51,77] [info] dataFileCache commit end
+[2022-02-02 14:10:51,77] [info] checkpointClose end
+[2022-02-02 14:10:51,77] [info] Checkpoint end - txts: 21997069
+[2022-02-02 14:10:51,78] [info] Checkpoint start
+[2022-02-02 14:10:51,78] [info] checkpointClose start
+[2022-02-02 14:10:51,78] [info] checkpointClose synched
+[2022-02-02 14:10:53,96] [info] checkpointClose script done
+[2022-02-02 14:10:53,96] [info] dataFileCache commit start
+[2022-02-02 14:10:53,97] [info] dataFileCache commit end
+[2022-02-02 14:10:53,98] [info] checkpointClose end
+[2022-02-02 14:10:53,98] [info] Checkpoint end - txts: 21997076
+Feb 02, 2022 2:10:53 PM liquibase.lockservice
+INFO: Successfully released change log lock
+[2022-02-02 14:10:53,98] [info] Checkpoint start
+[2022-02-02 14:10:53,98] [info] checkpointClose start
+[2022-02-02 14:10:53,99] [info] checkpointClose synched
+[2022-02-02 14:10:56,22] [info] checkpointClose script done
+[2022-02-02 14:10:56,22] [info] dataFileCache commit start
+[2022-02-02 14:10:56,23] [info] dataFileCache commit end
+[2022-02-02 14:10:56,23] [info] checkpointClose end
+[2022-02-02 14:10:56,23] [info] Checkpoint end - txts: 21997078
+[2022-02-02 14:10:56,23] [info] Checkpoint start
+[2022-02-02 14:10:56,23] [info] checkpointClose start
+[2022-02-02 14:10:56,24] [info] checkpointClose synched
+[2022-02-02 14:10:58,41] [info] checkpointClose script done
+[2022-02-02 14:10:58,41] [info] dataFileCache commit start
+[2022-02-02 14:10:58,42] [info] dataFileCache commit end
+[2022-02-02 14:10:58,43] [info] checkpointClose end
+[2022-02-02 14:10:58,43] [info] Checkpoint end - txts: 21997080
+[2022-02-02 14:10:58,44] [info] Running with database db.url = 
+    jdbc:hsqldb:file:cromwell-executions/cromwell-db/cromwell-db;
+    shutdown=false;
+    hsqldb.default_table_type=cached;hsqldb.tx=mvcc;
+    hsqldb.result_max_memory_rows=500000;
+    hsqldb.large_data=true;
+    hsqldb.applog=1;
+    hsqldb.log_compressed=true;
+    hsqldb.script_format=3
+    
+Feb 02, 2022 2:10:58 PM liquibase.database
+INFO: Set default schema name to PUBLIC
+[2022-02-02 14:10:58,47] [info] Checkpoint start
+[2022-02-02 14:10:58,48] [info] checkpointClose start
+[2022-02-02 14:10:58,48] [info] checkpointClose synched
+[2022-02-02 14:11:00,68] [info] checkpointClose script done
+[2022-02-02 14:11:00,68] [info] dataFileCache commit start
+[2022-02-02 14:11:00,69] [info] dataFileCache commit end
+[2022-02-02 14:11:00,69] [info] checkpointClose end
+[2022-02-02 14:11:00,69] [info] Checkpoint end - txts: 21997088
+[2022-02-02 14:11:00,70] [info] Checkpoint start
+[2022-02-02 14:11:00,70] [info] checkpointClose start
+[2022-02-02 14:11:00,70] [info] checkpointClose synched
+[2022-02-02 14:11:02,86] [info] checkpointClose script done
+[2022-02-02 14:11:02,86] [info] dataFileCache commit start
+[2022-02-02 14:11:02,87] [info] dataFileCache commit end
+[2022-02-02 14:11:02,88] [info] checkpointClose end
+[2022-02-02 14:11:02,88] [info] Checkpoint end - txts: 21997104
+Feb 02, 2022 2:11:02 PM liquibase.lockservice
+INFO: Successfully acquired change log lock
+[2022-02-02 14:11:02,88] [info] Checkpoint start
+[2022-02-02 14:11:02,88] [info] checkpointClose start
+[2022-02-02 14:11:02,88] [info] checkpointClose synched
+[2022-02-02 14:11:05,09] [info] checkpointClose script done
+[2022-02-02 14:11:05,09] [info] dataFileCache commit start
+[2022-02-02 14:11:05,09] [info] dataFileCache commit end
+[2022-02-02 14:11:05,10] [info] checkpointClose end
+[2022-02-02 14:11:05,10] [info] Checkpoint end - txts: 21997106
+Feb 02, 2022 2:11:05 PM liquibase.changelog
+INFO: Reading from PUBLIC.SQLMETADATADATABASECHANGELOG
+[2022-02-02 14:11:05,21] [info] Checkpoint start
+[2022-02-02 14:11:05,21] [info] checkpointClose start
+[2022-02-02 14:11:05,21] [info] checkpointClose synched
+[2022-02-02 14:11:07,37] [info] checkpointClose script done
+[2022-02-02 14:11:07,37] [info] dataFileCache commit start
+[2022-02-02 14:11:07,38] [info] dataFileCache commit end
+[2022-02-02 14:11:07,38] [info] checkpointClose end
+[2022-02-02 14:11:07,38] [info] Checkpoint end - txts: 21997161
+[2022-02-02 14:11:07,39] [info] Checkpoint start
+[2022-02-02 14:11:07,39] [info] checkpointClose start
+[2022-02-02 14:11:07,39] [info] checkpointClose synched
+[2022-02-02 14:11:09,56] [info] checkpointClose script done
+[2022-02-02 14:11:09,56] [info] dataFileCache commit start
+[2022-02-02 14:11:09,57] [info] dataFileCache commit end
+[2022-02-02 14:11:09,57] [info] checkpointClose end
+[2022-02-02 14:11:09,57] [info] Checkpoint end - txts: 21997163
+[2022-02-02 14:11:09,59] [info] Checkpoint start
+[2022-02-02 14:11:09,59] [info] checkpointClose start
+[2022-02-02 14:11:09,59] [info] checkpointClose synched
+[2022-02-02 14:11:11,76] [info] checkpointClose script done
+[2022-02-02 14:11:11,76] [info] dataFileCache commit start
+[2022-02-02 14:11:11,77] [info] dataFileCache commit end
+[2022-02-02 14:11:11,77] [info] checkpointClose end
+[2022-02-02 14:11:11,77] [info] Checkpoint end - txts: 21997165
+[2022-02-02 14:11:11,78] [info] Checkpoint start
+[2022-02-02 14:11:11,78] [info] checkpointClose start
+[2022-02-02 14:11:11,78] [info] checkpointClose synched
+[2022-02-02 14:11:13,95] [info] checkpointClose script done
+[2022-02-02 14:11:13,95] [info] dataFileCache commit start
+[2022-02-02 14:11:13,96] [info] dataFileCache commit end
+[2022-02-02 14:11:13,97] [info] checkpointClose end
+[2022-02-02 14:11:13,97] [info] Checkpoint end - txts: 21997172
+Feb 02, 2022 2:11:13 PM liquibase.lockservice
+INFO: Successfully released change log lock
+[2022-02-02 14:11:13,97] [info] Checkpoint start
+[2022-02-02 14:11:13,97] [info] checkpointClose start
+[2022-02-02 14:11:13,97] [info] checkpointClose synched
+[2022-02-02 14:11:16,15] [info] checkpointClose script done
+[2022-02-02 14:11:16,15] [info] dataFileCache commit start
+[2022-02-02 14:11:16,15] [info] dataFileCache commit end
+[2022-02-02 14:11:16,16] [info] checkpointClose end
+[2022-02-02 14:11:16,16] [info] Checkpoint end - txts: 21997174
+[2022-02-02 14:11:16,16] [info] Checkpoint start
+[2022-02-02 14:11:16,16] [info] checkpointClose start
+[2022-02-02 14:11:16,16] [info] checkpointClose synched
+[2022-02-02 14:11:18,36] [info] checkpointClose script done
+[2022-02-02 14:11:18,36] [info] dataFileCache commit start
+[2022-02-02 14:11:18,37] [info] dataFileCache commit end
+[2022-02-02 14:11:18,37] [info] checkpointClose end
+[2022-02-02 14:11:18,37] [info] Checkpoint end - txts: 21997176
+[2022-02-02 14:11:18,42] [[38;5;220mwarn[0m] Unrecognized configuration key(s) for AwsBatch: auth, numCreateDefinitionAttempts, default-runtime-attributes.awsBatchRetryAttempts, numSubmitAttempts, default-runtime-attributes.scriptBucketName
+[2022-02-02 14:11:18,64] [info] Slf4jLogger started
+[2022-02-02 14:11:18,82] [info] Workflow heartbeat configuration:
+{
+  "cromwellId" : "cromid-776dced",
+  "heartbeatInterval" : "2 minutes",
+  "ttl" : "10 minutes",
+  "failureShutdownDuration" : "5 minutes",
+  "writeBatchSize" : 10000,
+  "writeThreshold" : 10000
+}
+[2022-02-02 14:11:18,88] [info] Metadata summary refreshing every 1 second.
+[2022-02-02 14:11:18,88] [info] No metadata archiver defined in config
+[2022-02-02 14:11:18,88] [info] No metadata deleter defined in config
+[2022-02-02 14:11:18,90] [info] WriteMetadataActor configured to flush with batch size 200 and process rate 5 seconds.
+[2022-02-02 14:11:18,90] [info] KvWriteActor configured to flush with batch size 200 and process rate 5 seconds.
+[2022-02-02 14:11:18,91] [info] CallCacheWriteActor configured to flush with batch size 100 and process rate 3 seconds.
+[2022-02-02 14:11:18,98] [info] JobExecutionTokenDispenser - Distribution rate: 20 per 10 seconds.
+[2022-02-02 14:11:19,02] [info] SingleWorkflowRunnerActor: Version 72
+[2022-02-02 14:11:19,03] [info] SingleWorkflowRunnerActor: Submitting workflow
+[2022-02-02 14:11:19,06] [info] Unspecified type (Unspecified version) workflow 68f924a6-4ab6-49a9-97d1-1aae929a2ea3 submitted
+[2022-02-02 14:11:19,09] [info] SingleWorkflowRunnerActor: Workflow submitted [38;5;2m68f924a6-4ab6-49a9-97d1-1aae929a2ea3[0m
+[2022-02-02 14:11:19,10] [info] 1 new workflows fetched by cromid-776dced: 68f924a6-4ab6-49a9-97d1-1aae929a2ea3
+[2022-02-02 14:11:19,11] [info] WorkflowManagerActor: Starting workflow [38;5;2m68f924a6-4ab6-49a9-97d1-1aae929a2ea3[0m
+[2022-02-02 14:11:19,12] [info] WorkflowManagerActor: Successfully started WorkflowActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3
+[2022-02-02 14:11:19,12] [info] Retrieved 1 workflows from the WorkflowStoreActor
+[2022-02-02 14:11:19,15] [info] WorkflowStoreHeartbeatWriteActor configured to flush with batch size 10000 and process rate 2 minutes.
+[2022-02-02 14:11:20,24] [info] MaterializeWorkflowDescriptorActor [[38;5;2m68f924a6[0m]: Parsing workflow as WDL Biscayne
+[2022-02-02 14:11:21,74] [info] MaterializeWorkflowDescriptorActor [[38;5;2m68f924a6[0m]: Call-to-Backend assignments: MIGNON.fastqc -> AWSBatch, VariantCalling.MergeVCFs -> AWSBatch, MIGNON.star -> AWSBatch, VariantCalling.SplitIntervals -> AWSBatch, MIGNON.hisat2 -> AWSBatch, VariantCalling.IndexBam -> AWSBatch, VariantCalling.SplitNCigarReads -> AWSBatch, VariantCalling.HaplotypeCaller -> AWSBatch, VariantCalling.BaseRecalibrator -> AWSBatch, MIGNON.hipathia -> AWSBatch, VariantCalling.AddReadGroup -> AWSBatch, VariantCalling.MarkDuplicates -> AWSBatch, MIGNON.bamHisat2 -> AWSBatch, VariantCalling.ReorderBam -> AWSBatch, MIGNON.ensembldb -> AWSBatch, MIGNON.featureCounts -> AWSBatch, MIGNON.fastp -> AWSBatch, MIGNON.filterBam -> AWSBatch, MIGNON.edgeR -> AWSBatch, VariantCalling.ApplyBQSR -> AWSBatch, MIGNON.salmon -> AWSBatch, MIGNON.txImport -> AWSBatch, VariantCalling.VariantFiltration -> AWSBatch, MIGNON.vep -> AWSBatch
+[2022-02-02 14:11:21,77] [[38;5;220mwarn[0m] Unrecognized configuration key(s) for AwsBatch: auth, numCreateDefinitionAttempts, default-runtime-attributes.awsBatchRetryAttempts, numSubmitAttempts, default-runtime-attributes.scriptBucketName
+[2022-02-02 14:11:21,85] [[38;5;220mwarn[0m] AWSBatch [[38;5;2m68f924a6[0m]: Key/s [docker_volume] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+[2022-02-02 14:11:21,85] [[38;5;220mwarn[0m] AWSBatch [[38;5;2m68f924a6[0m]: Key/s [docker_volume] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+[2022-02-02 14:11:21,85] [[38;5;220mwarn[0m] AWSBatch [[38;5;2m68f924a6[0m]: Key/s [docker_volume] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+[2022-02-02 14:11:21,85] [[38;5;220mwarn[0m] AWSBatch [[38;5;2m68f924a6[0m]: Key/s [docker_volume] is/are not supported by backend. Unsupported attributes will not be part of job executions.
+[2022-02-02 14:11:23,98] [info] Not triggering log of token queue status. Effective log interval = None
+[2022-02-02 14:11:28,36] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.ensembldb
+[2022-02-02 14:11:29,00] [info] Assigned new job execution tokens to the following groups: 68f924a6: 1
+[2022-02-02 14:11:29,48] [info] BT-322 68f924a6:MIGNON.ensembldb:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:11:30,23] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.ensembldb:NA:1 [[38;5;2m68f924a6[0m]: Failure copying cache results for job BackendJobDescriptorKey_CommandCallNode_MIGNON.ensembldb:-1:1 (EnhancedCromwellIoException: [Attempted 1 time(s)] - NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: CJT611V2K0YYDPF9, Extended Request ID: null))
+[2022-02-02 14:11:30,23] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.ensembldb:NA:1 [[38;5;2m68f924a6[0m]: Invalidating cache entry CallCachingEntryId(3594) (Cache entry details: Some(0cb0247c-6cbc-4712-8d49-b1f13e689a4b:MIGNON.ensembldb:-1))
+[2022-02-02 14:11:30,47] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.ensembldb:NA:1 [[38;5;2m68f924a6[0m]: Failure copying cache results for job BackendJobDescriptorKey_CommandCallNode_MIGNON.ensembldb:-1:1 (EnhancedCromwellIoException: [Attempted 1 time(s)] - NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: CJT924HR7A04S1SG, Extended Request ID: null))(this job has already failed to copy from another 1 other hits, of which 1 were copy failures and 0 were already blacklisted)
+[2022-02-02 14:11:30,47] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.ensembldb:NA:1 [[38;5;2m68f924a6[0m]: Invalidating cache entry CallCachingEntryId(5902) (Cache entry details: Some(48b59516-50c1-4d13-965b-d9aca61c423e:MIGNON.ensembldb:-1))
+[2022-02-02 14:11:30,52] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.ensembldb:NA:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.ensembldb:-1:1. EJEA attempted to copy 2 cache hits before failing. Of these 2 failed to copy and 0 were already blacklisted from previous attempts). Falling back to running job.
+[2022-02-02 14:11:30,52] [info] BT-322 68f924a6:MIGNON.ensembldb:-1:1 cache hit copying failure: 2 failed copy attempts of maximum 1000000 with aggregated hashes: initial = ECCD7600A551159B258D4C78A53B081C, file = 58BA37DB12FEA6ACB3E33934C8DE8045.
+[2022-02-02 14:11:30,63] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.ensembldb:NA:1]: [38;5;5mRscript /cromwell_root/2pcdx/mignon/data/scripts/ensembldb.r --gtf /cromwell_root/2pcdx/mignon/data/Homo_sapiens.GRCh38.101.gtf \
+--outFile tx2gene.tsv[0m
+[2022-02-02 14:11:30,87] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.ensembldb:NA:1]: [38;5;5mRscript /cromwell_root/2pcdx/mignon/data/scripts/ensembldb.r --gtf /cromwell_root/2pcdx/mignon/data/Homo_sapiens.GRCh38.101.gtf \
+--outFile tx2gene.tsv[0m
+[2022-02-02 14:11:31,44] [info] Submitting taskId: MIGNON.ensembldb-None-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_bioconductor-ensembldb_2_6_3--r351_018e3661e81798aabc03d87140630828584f42c43:1, script: s3://2pcdx/scripts/03433b6b174c41a41964b8d67e3775e3
+[2022-02-02 14:11:31,48] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.fastp (11 shards)
+[2022-02-02 14:11:33,93] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.ensembldb:NA:1]: job id: bb29a319-4dea-4ec5-8298-58bc65adfc6a
+[2022-02-02 14:11:33,93] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.ensembldb:NA:1]: Status change from - to Initializing
+[2022-02-02 14:11:38,99] [info] Assigned new job execution tokens to the following groups: 68f924a6: 11
+[2022-02-02 14:11:39,06] [info] BT-322 68f924a6:MIGNON.fastp:3:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:11:39,06] [info] BT-322 68f924a6:MIGNON.fastp:4:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:11:39,07] [info] BT-322 68f924a6:MIGNON.fastp:1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:11:39,07] [info] BT-322 68f924a6:MIGNON.fastp:0:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:11:39,07] [info] BT-322 68f924a6:MIGNON.fastp:6:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:11:39,08] [info] BT-322 68f924a6:MIGNON.fastp:10:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:11:39,08] [info] BT-322 68f924a6:MIGNON.fastp:8:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:11:39,09] [info] BT-322 68f924a6:MIGNON.fastp:9:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:11:39,09] [info] BT-322 68f924a6:MIGNON.fastp:7:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:11:39,10] [info] BT-322 68f924a6:MIGNON.fastp:5:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:11:39,10] [info] BT-322 68f924a6:MIGNON.fastp:2:1 is eligible for call caching with read = true and write = true
+Feb 02, 2022 2:11:40 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-fastp/shard-90/cacheCopy/P0866_1.fastq.gz, objectSize = 5397891108, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-4/cacheCopy/P0866_1.fastq.gz, options = [REPLACE_EXISTING]
+Feb 02, 2022 2:11:40 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+Feb 02, 2022 2:11:40 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-fastp/shard-90/cacheCopy/P0866_2.fastq.gz, objectSize = 5552044498, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-4/cacheCopy/P0866_2.fastq.gz, options = [REPLACE_EXISTING]
+Feb 02, 2022 2:11:40 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+Feb 02, 2022 2:11:41 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-fastp/shard-140/cacheCopy/P0723_1.fastq.gz, objectSize = 6222550763, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-10/cacheCopy/P0723_1.fastq.gz, options = [REPLACE_EXISTING]
+Feb 02, 2022 2:11:41 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+Feb 02, 2022 2:11:41 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-fastp/shard-140/cacheCopy/P0723_2.fastq.gz, objectSize = 6386310205, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-10/cacheCopy/P0723_2.fastq.gz, options = [REPLACE_EXISTING]
+Feb 02, 2022 2:11:41 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+Feb 02, 2022 2:11:42 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+Feb 02, 2022 2:11:43 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+Feb 02, 2022 2:11:44 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+Feb 02, 2022 2:11:44 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+[2022-02-02 14:11:44,85] [info] I/O command 0.174 seconds stale, applying I/O subsystem backpressure with scale 1.03
+[2022-02-02 14:11:44,85] [info] Beginning IoActor backpressure for 20.70 seconds
+[2022-02-02 14:11:44,85] [info] BT-322 68f924a6:MIGNON.fastp:4:1 cache hit copying success with aggregated hashes: initial = 1544CBD7E707F632FBC15AEAD9A584DB, file = 8564564211268452513B217B8BCCC147.
+[2022-02-02 14:11:44,85] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastp:4:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:11:44,89] [info] I/O command 0.199 seconds stale, applying I/O subsystem backpressure with scale 1.04
+[2022-02-02 14:11:45,07] [info] I/O command 0.384 seconds stale, applying I/O subsystem backpressure with scale 1.08
+[2022-02-02 14:11:45,17] [info] I/O command 0.494 seconds stale, applying I/O subsystem backpressure with scale 1.10
+Feb 02, 2022 2:11:45 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-fastp/shard-109/P1544_1.fastq.gz, objectSize = 5870114977, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-6/cacheCopy/P1544_1.fastq.gz, options = [REPLACE_EXISTING]
+[2022-02-02 14:11:45,31] [info] I/O command 0.633 seconds stale, applying I/O subsystem backpressure with scale 1.13
+Feb 02, 2022 2:11:45 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+[2022-02-02 14:11:45,61] [info] I/O command 0.918 seconds stale, applying I/O subsystem backpressure with scale 1.18
+[2022-02-02 14:11:45,61] [info] Extending IoActor backpressure 1.44 seconds
+[2022-02-02 14:11:45,88] [info] I/O command 1.194 seconds stale, applying I/O subsystem backpressure with scale 1.24
+[2022-02-02 14:11:45,88] [info] Extending IoActor backpressure 1.37 seconds
+[2022-02-02 14:11:45,99] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.fastp' (scatter index: Some(4), attempt 1)
+Feb 02, 2022 2:11:46 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-fastp/shard-109/P1544_2.fastq.gz, objectSize = 6032529772, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-6/cacheCopy/P1544_2.fastq.gz, options = [REPLACE_EXISTING]
+Feb 02, 2022 2:11:46 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+Feb 02, 2022 2:11:47 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+[2022-02-02 14:11:47,17] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.star, MIGNON.fastqc, MIGNON.salmon
+Feb 02, 2022 2:11:47 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+[2022-02-02 14:11:47,53] [info] I/O command 2.844 seconds stale, applying I/O subsystem backpressure with scale 1.57
+[2022-02-02 14:11:47,53] [info] Extending IoActor backpressure 8.25 seconds
+[2022-02-02 14:11:47,72] [info] I/O command 3.036 seconds stale, applying I/O subsystem backpressure with scale 1.61
+[2022-02-02 14:11:48,88] [info] The following components have reported being overloaded: IO
+[2022-02-02 14:11:48,89] [[38;5;220mwarn[0m] JobExecutionTokenDispenser - High load alert. Freeze token distribution.
+Feb 02, 2022 2:11:48 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+Feb 02, 2022 2:11:49 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+[2022-02-02 14:11:49,26] [info] I/O command 4.580 seconds stale, applying I/O subsystem backpressure with scale 1.92
+[2022-02-02 14:11:49,26] [info] Extending IoActor backpressure 7.72 seconds
+Feb 02, 2022 2:11:49 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+Feb 02, 2022 2:11:49 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+[2022-02-02 14:11:49,64] [info] I/O command 4.944 seconds stale, applying I/O subsystem backpressure with scale 1.99
+[2022-02-02 14:11:49,64] [info] Extending IoActor backpressure 1.83 seconds
+[2022-02-02 14:11:49,64] [info] BT-322 68f924a6:MIGNON.fastp:10:1 cache hit copying success with aggregated hashes: initial = 37F7359F7BE605687D9D69FF112405AE, file = 7A21858DE5D35A0902F61B13493BD955.
+[2022-02-02 14:11:49,64] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastp:10:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:11:49,83] [info] I/O command 5.158 seconds stale, applying I/O subsystem backpressure with scale 2.03
+[2022-02-02 14:11:49,83] [info] Extending IoActor backpressure 1.05 seconds
+[2022-02-02 14:11:50,22] [info] I/O command 5.532 seconds stale, applying I/O subsystem backpressure with scale 2.11
+[2022-02-02 14:11:50,22] [info] Extending IoActor backpressure 1.88 seconds
+[2022-02-02 14:11:50,46] [info] I/O command 5.776 seconds stale, applying I/O subsystem backpressure with scale 2.16
+[2022-02-02 14:11:50,46] [info] Extending IoActor backpressure 1.22 seconds
+[2022-02-02 14:11:50,72] [info] I/O command 6.022 seconds stale, applying I/O subsystem backpressure with scale 2.20
+[2022-02-02 14:11:50,72] [info] Extending IoActor backpressure 1.24 seconds
+[2022-02-02 14:11:50,96] [info] I/O command 6.281 seconds stale, applying I/O subsystem backpressure with scale 2.26
+[2022-02-02 14:11:50,96] [info] Extending IoActor backpressure 1.28 seconds
+[2022-02-02 14:11:51,46] [info] I/O command 6.755 seconds stale, applying I/O subsystem backpressure with scale 2.35
+[2022-02-02 14:11:51,46] [info] Extending IoActor backpressure 2.40 seconds
+[2022-02-02 14:11:51,68] [info] I/O command 6.996 seconds stale, applying I/O subsystem backpressure with scale 2.40
+[2022-02-02 14:11:51,68] [info] Extending IoActor backpressure 1.19 seconds
+Feb 02, 2022 2:11:51 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-fastp/shard-135/cacheCopy/P0375_1.fastq.gz, objectSize = 5777959748, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-8/cacheCopy/P0375_1.fastq.gz, options = [REPLACE_EXISTING]
+Feb 02, 2022 2:11:51 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+[2022-02-02 14:11:51,95] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.fastp' (scatter index: Some(10), attempt 1)
+Feb 02, 2022 2:11:51 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+Feb 02, 2022 2:11:52 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+[2022-02-02 14:11:52,19] [info] I/O command 7.500 seconds stale, applying I/O subsystem backpressure with scale 2.50
+[2022-02-02 14:11:52,19] [info] Extending IoActor backpressure 2.52 seconds
+[2022-02-02 14:11:52,20] [info] BT-322 68f924a6:MIGNON.fastp:6:1 cache hit copying success with aggregated hashes: initial = E41F8DADFA775B19315506850ACB7B68, file = 28978046C60E3CFD0EC85BA5188951B6.
+[2022-02-02 14:11:52,20] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastp:6:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+Feb 02, 2022 2:11:52 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-fastp/shard-135/cacheCopy/P0375_2.fastq.gz, objectSize = 6051143873, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-8/cacheCopy/P0375_2.fastq.gz, options = [REPLACE_EXISTING]
+Feb 02, 2022 2:11:52 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+[2022-02-02 14:11:53,34] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.salmon, MIGNON.star, MIGNON.fastqc
+Feb 02, 2022 2:11:53 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+Feb 02, 2022 2:11:54 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+[2022-02-02 14:11:54,18] [info] I/O command 9.497 seconds stale, applying I/O subsystem backpressure with scale 2.90
+[2022-02-02 14:11:54,18] [info] Extending IoActor backpressure 9.98 seconds
+Feb 02, 2022 2:11:54 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+[2022-02-02 14:11:54,47] [info] I/O command 9.767 seconds stale, applying I/O subsystem backpressure with scale 2.95
+[2022-02-02 14:11:54,47] [info] Extending IoActor backpressure 1.37 seconds
+[2022-02-02 14:11:54,68] [info] I/O command 9.999 seconds stale, applying I/O subsystem backpressure with scale 3.00
+[2022-02-02 14:11:54,68] [info] Extending IoActor backpressure 1.14 seconds
+Feb 02, 2022 2:11:54 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+[2022-02-02 14:11:54,69] [info] I/O command 9.994 seconds stale, applying I/O subsystem backpressure with scale 3.00
+[2022-02-02 14:11:54,85] [info] I/O command 10.151 seconds stale, applying I/O subsystem backpressure with scale 3.03
+[2022-02-02 14:11:54,95] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.fastp' (scatter index: Some(6), attempt 1)
+[2022-02-02 14:11:55,01] [info] I/O command 10.305 seconds stale, applying I/O subsystem backpressure with scale 3.06
+[2022-02-02 14:11:55,02] [info] I/O command 10.335 seconds stale, applying I/O subsystem backpressure with scale 3.07
+[2022-02-02 14:11:55,03] [info] BT-322 68f924a6:MIGNON.fastp:8:1 cache hit copying success with aggregated hashes: initial = CEA26B6568CE4946FCECDC543690C82A, file = F3C13D96E25F45A52845457880BCC17C.
+[2022-02-02 14:11:55,03] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastp:8:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:11:55,22] [info] I/O command 10.526 seconds stale, applying I/O subsystem backpressure with scale 3.11
+Feb 02, 2022 2:11:55 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-fastp/shard-127/P1376_1.fastq.gz, objectSize = 8215726857, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-7/cacheCopy/P1376_1.fastq.gz, options = [REPLACE_EXISTING]
+Feb 02, 2022 2:11:55 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+[2022-02-02 14:11:55,39] [info] I/O command 10.692 seconds stale, applying I/O subsystem backpressure with scale 3.14
+Feb 02, 2022 2:11:55 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-fastp/shard-127/P1376_2.fastq.gz, objectSize = 8258501718, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-7/cacheCopy/P1376_2.fastq.gz, options = [REPLACE_EXISTING]
+Feb 02, 2022 2:11:55 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+[2022-02-02 14:11:56,40] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.salmon, MIGNON.star, MIGNON.fastqc
+[2022-02-02 14:11:57,96] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.fastp' (scatter index: Some(8), attempt 1)
+[2022-02-02 14:11:59,46] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.star, MIGNON.fastqc, MIGNON.salmon
+Feb 02, 2022 2:11:59 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+Feb 02, 2022 2:12:00 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+Feb 02, 2022 2:12:00 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+[2022-02-02 14:12:00,32] [info] I/O command 15.610 seconds stale, applying I/O subsystem backpressure with scale 4.12
+[2022-02-02 14:12:00,32] [info] Extending IoActor backpressure 4.93 seconds
+Feb 02, 2022 2:12:00 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+[2022-02-02 14:12:00,49] [info] I/O command 15.785 seconds stale, applying I/O subsystem backpressure with scale 4.16
+[2022-02-02 14:12:00,64] [info] I/O command 15.932 seconds stale, applying I/O subsystem backpressure with scale 4.19
+[2022-02-02 14:12:00,65] [info] I/O command 15.966 seconds stale, applying I/O subsystem backpressure with scale 4.19
+[2022-02-02 14:12:00,80] [info] I/O command 16.104 seconds stale, applying I/O subsystem backpressure with scale 4.22
+[2022-02-02 14:12:00,92] [info] I/O command 16.212 seconds stale, applying I/O subsystem backpressure with scale 4.24
+[2022-02-02 14:12:00,93] [info] BT-322 68f924a6:MIGNON.fastp:7:1 cache hit copying success with aggregated hashes: initial = E1A5CDF5EFD31C76528AF80A60E5DFB1, file = 22CFE0DB6C695D9BFA07760C47D8410F.
+[2022-02-02 14:12:00,93] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastp:7:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:12:01,10] [info] I/O command 16.391 seconds stale, applying I/O subsystem backpressure with scale 4.28
+[2022-02-02 14:12:01,13] [info] I/O command 16.419 seconds stale, applying I/O subsystem backpressure with scale 4.28
+[2022-02-02 14:12:01,35] [info] I/O command 16.654 seconds stale, applying I/O subsystem backpressure with scale 4.33
+[2022-02-02 14:12:01,42] [info] I/O command 16.715 seconds stale, applying I/O subsystem backpressure with scale 4.34
+[2022-02-02 14:12:01,63] [info] I/O command 16.924 seconds stale, applying I/O subsystem backpressure with scale 4.38
+[2022-02-02 14:12:04,00] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.fastp' (scatter index: Some(7), attempt 1)
+[2022-02-02 14:12:05,58] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.salmon, MIGNON.fastqc, MIGNON.star
+[2022-02-02 14:13:01,64] [info] IoActor backpressure off
+[2022-02-02 14:13:03,88] [info] JobExecutionTokenDispenser - Load back to normal
+[2022-02-02 14:13:13,91] [info] Assigned new job execution tokens to the following groups: 68f924a6: 15
+[2022-02-02 14:13:13,97] [info] BT-322 68f924a6:MIGNON.star:6:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:13:13,97] [info] BT-322 68f924a6:MIGNON.star:7:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:13:13,97] [info] BT-322 68f924a6:MIGNON.star:8:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:13:13,97] [info] BT-322 68f924a6:MIGNON.star:4:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:13:13,97] [info] BT-322 68f924a6:MIGNON.star:10:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:13:14,02] [info] BT-322 68f924a6:MIGNON.salmon:10:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:13:14,02] [info] BT-322 68f924a6:MIGNON.salmon:7:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:13:14,02] [info] BT-322 68f924a6:MIGNON.salmon:8:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:13:14,03] [info] BT-322 68f924a6:MIGNON.salmon:6:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:13:14,03] [info] BT-322 68f924a6:MIGNON.salmon:4:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:13:14,23] [info] BT-322 68f924a6:MIGNON.fastqc:4:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:13:14,23] [info] BT-322 68f924a6:MIGNON.fastqc:8:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:13:14,23] [info] BT-322 68f924a6:MIGNON.fastqc:10:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:13:14,23] [info] BT-322 68f924a6:MIGNON.fastqc:7:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:13:14,23] [info] BT-322 68f924a6:MIGNON.fastqc:6:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:13:18,90] [info] I/O command 94.195 seconds stale, applying I/O subsystem backpressure with scale 19.84
+[2022-02-02 14:13:18,90] [info] Beginning IoActor backpressure for 60.00 seconds
+[2022-02-02 14:13:19,09] [info] I/O command 94.380 seconds stale, applying I/O subsystem backpressure with scale 19.88
+[2022-02-02 14:13:19,39] [info] I/O command 94.670 seconds stale, applying I/O subsystem backpressure with scale 19.93
+[2022-02-02 14:13:19,62] [info] I/O command 94.903 seconds stale, applying I/O subsystem backpressure with scale 19.98
+[2022-02-02 14:13:19,85] [info] I/O command 95.133 seconds stale, applying I/O subsystem backpressure with scale 20.03
+[2022-02-02 14:13:20,04] [info] I/O command 95.332 seconds stale, applying I/O subsystem backpressure with scale 20.07
+[2022-02-02 14:13:20,35] [info] I/O command 95.633 seconds stale, applying I/O subsystem backpressure with scale 20.13
+[2022-02-02 14:13:23,88] [info] The following components have reported being overloaded: IO
+[2022-02-02 14:13:23,88] [[38;5;220mwarn[0m] JobExecutionTokenDispenser - High load alert. Freeze token distribution.
+[2022-02-02 14:13:23,96] [info] I/O command 99.240 seconds stale, applying I/O subsystem backpressure with scale 20.85
+[2022-02-02 14:13:23,96] [info] Extending IoActor backpressure 3.61 seconds
+[2022-02-02 14:13:24,14] [info] I/O command 99.429 seconds stale, applying I/O subsystem backpressure with scale 20.89
+[2022-02-02 14:13:35,47] [info] I/O command 16.488 seconds stale, applying I/O subsystem backpressure with scale 4.30
+[2022-02-02 14:13:35,47] [info] Extending IoActor backpressure 11.33 seconds
+[2022-02-02 14:13:35,50] [info] I/O command 16.524 seconds stale, applying I/O subsystem backpressure with scale 4.30
+[2022-02-02 14:13:35,54] [info] I/O command 16.560 seconds stale, applying I/O subsystem backpressure with scale 4.31
+[2022-02-02 14:13:35,57] [info] I/O command 16.593 seconds stale, applying I/O subsystem backpressure with scale 4.32
+[2022-02-02 14:13:35,60] [info] I/O command 16.622 seconds stale, applying I/O subsystem backpressure with scale 4.32
+[2022-02-02 14:13:35,65] [info] I/O command 16.670 seconds stale, applying I/O subsystem backpressure with scale 4.33
+[2022-02-02 14:13:35,68] [info] I/O command 16.698 seconds stale, applying I/O subsystem backpressure with scale 4.34
+[2022-02-02 14:13:35,71] [info] I/O command 16.730 seconds stale, applying I/O subsystem backpressure with scale 4.35
+[2022-02-02 14:13:35,75] [info] I/O command 16.762 seconds stale, applying I/O subsystem backpressure with scale 4.35
+[2022-02-02 14:13:35,78] [info] I/O command 16.795 seconds stale, applying I/O subsystem backpressure with scale 4.36
+[2022-02-02 14:13:35,81] [info] I/O command 16.826 seconds stale, applying I/O subsystem backpressure with scale 4.37
+[2022-02-02 14:13:35,84] [info] I/O command 16.811 seconds stale, applying I/O subsystem backpressure with scale 4.36
+[2022-02-02 14:13:36,08] [info] BT-322 68f924a6:MIGNON.star:4:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:13:36,08] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:4:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.star:4:1. No copy attempts were made.
+[2022-02-02 14:13:36,08] [[38;5;220mwarn[0m] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:4:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:13:36,09] [info] BT-322 68f924a6:MIGNON.fastqc:4:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:13:36,09] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:4:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.fastqc:4:1. No copy attempts were made.
+[2022-02-02 14:13:36,10] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:4:1]: [38;5;5mfastqc -t 2 -o . \
+        \
+       /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-4/cacheCopy/P0866_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-4/cacheCopy/P0866_2.fastq.gz[0m
+[2022-02-02 14:13:36,10] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:4:1]: [38;5;5mSTAR --runThreadN 16 \
+     --genomeDir /cromwell_root/2pcdx/mignon/data/STARindex \
+     --readFilesIn /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-4/cacheCopy/P0866_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-4/cacheCopy/P0866_2.fastq.gz \
+     --readFilesCommand zcat \
+     --outSAMtype BAM SortedByCoordinate \
+     --outFileNamePrefix P0866 \
+     limitBAMsortRAM 26[0m
+[2022-02-02 14:13:36,23] [info] BT-322 68f924a6:MIGNON.fastqc:6:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:13:36,23] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:6:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.fastqc:6:1. No copy attempts were made.
+[2022-02-02 14:13:36,23] [info] BT-322 68f924a6:MIGNON.star:6:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:13:36,23] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:6:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.star:6:1. No copy attempts were made.
+[2022-02-02 14:13:36,23] [[38;5;220mwarn[0m] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:6:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:13:36,24] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:6:1]: [38;5;5mfastqc -t 2 -o . \
+        \
+       /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-6/cacheCopy/P1544_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-6/cacheCopy/P1544_2.fastq.gz[0m
+[2022-02-02 14:13:36,25] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:6:1]: [38;5;5mSTAR --runThreadN 16 \
+     --genomeDir /cromwell_root/2pcdx/mignon/data/STARindex \
+     --readFilesIn /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-6/cacheCopy/P1544_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-6/cacheCopy/P1544_2.fastq.gz \
+     --readFilesCommand zcat \
+     --outSAMtype BAM SortedByCoordinate \
+     --outFileNamePrefix P1544 \
+     limitBAMsortRAM 26[0m
+[2022-02-02 14:13:36,33] [info] BT-322 68f924a6:MIGNON.salmon:6:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:13:36,33] [info] BT-322 68f924a6:MIGNON.salmon:4:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:13:36,33] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:4:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.salmon:4:1. No copy attempts were made.
+[2022-02-02 14:13:36,33] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:6:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.salmon:6:1. No copy attempts were made.
+[2022-02-02 14:13:36,33] [[38;5;220mwarn[0m] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:4:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:13:36,33] [[38;5;220mwarn[0m] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:6:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:13:36,35] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:4:1]: [38;5;5msalmon quant -p 8 -i /cromwell_root/2pcdx/mignon/data/SALMONindex -l A \
+                 -1 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-4/cacheCopy/P0866_1.fastq.gz \
+                 -2 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-4/cacheCopy/P0866_2.fastq.gz \
+                 -o P0866 \[0m
+[2022-02-02 14:13:36,35] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:6:1]: [38;5;5msalmon quant -p 8 -i /cromwell_root/2pcdx/mignon/data/SALMONindex -l A \
+                 -1 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-6/cacheCopy/P1544_1.fastq.gz \
+                 -2 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-6/cacheCopy/P1544_2.fastq.gz \
+                 -o P1544 \[0m
+Feb 02, 2022 2:13:37 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-star/shard-135/P0375Aligned.sortedByCoord.out.bam, objectSize = 9519261548, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-8/cacheCopy/P0375Aligned.sortedByCoord.out.bam, options = [REPLACE_EXISTING]
+Feb 02, 2022 2:13:37 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+Feb 02, 2022 2:13:39 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+Feb 02, 2022 2:13:40 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+[2022-02-02 14:13:40,33] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-BackendCacheHitCopyingActor-68f924a6:MIGNON.star:8:1-3946 [[38;5;2m68f924a6[0mMIGNON.star:8:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:13:40,33] [info] BT-322 68f924a6:MIGNON.star:8:1 cache hit copying success with aggregated hashes: initial = 15250A2EB8EAA40A85C1BEECA89A5292, file = 4E98297D9AFE07B594DB7236E4E7692C.
+[2022-02-02 14:13:40,33] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:8:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:13:41,00] [info] I/O command 0.053 seconds stale, applying I/O subsystem backpressure with scale 1.01
+[2022-02-02 14:13:41,34] [info] I/O command 0.395 seconds stale, applying I/O subsystem backpressure with scale 1.08
+[2022-02-02 14:13:41,58] [info] I/O command 0.639 seconds stale, applying I/O subsystem backpressure with scale 1.13
+[2022-02-02 14:13:41,92] [info] I/O command 0.818 seconds stale, applying I/O subsystem backpressure with scale 1.16
+[2022-02-02 14:13:41,92] [info] BT-322 68f924a6:MIGNON.fastqc:8:1 cache hit copying success with aggregated hashes: initial = ACD92272165E04381DAFF105092BD633, file = 45697F7189E56E1411C21537B625BB31.
+[2022-02-02 14:13:41,92] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:8:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:13:42,08] [info] I/O command 0.972 seconds stale, applying I/O subsystem backpressure with scale 1.19
+[2022-02-02 14:13:42,08] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:4:1]: [38;5;5mfastqc -t 2 -o . \
+        \
+       /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-4/cacheCopy/P0866_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-4/cacheCopy/P0866_2.fastq.gz[0m
+[2022-02-02 14:13:42,22] [info] I/O command 0.989 seconds stale, applying I/O subsystem backpressure with scale 1.20
+[2022-02-02 14:13:42,22] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:4:1]: [38;5;5mSTAR --runThreadN 16 \
+     --genomeDir /cromwell_root/2pcdx/mignon/data/STARindex \
+     --readFilesIn /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-4/cacheCopy/P0866_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-4/cacheCopy/P0866_2.fastq.gz \
+     --readFilesCommand zcat \
+     --outSAMtype BAM SortedByCoordinate \
+     --outFileNamePrefix P0866 \
+     limitBAMsortRAM 26[0m
+[2022-02-02 14:13:42,37] [info] Submitting taskId: MIGNON.fastqc-Some(4)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_biocontainers_fastqc_v0_11_5_cv4dd85e91368ede8b162b38f139b556e07b5b3bef0:1, script: s3://2pcdx/scripts/dcd98f6a094d57ec91c72dbd6aa5bffd
+[2022-02-02 14:13:42,37] [info] I/O command 1.132 seconds stale, applying I/O subsystem backpressure with scale 1.23
+[2022-02-02 14:13:42,37] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:7:1 [[38;5;2m68f924a6[0m]: Failure copying cache results for job BackendJobDescriptorKey_CommandCallNode_MIGNON.fastqc:7:1 (EnhancedCromwellIoException: [Attempted 1 time(s)] - NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: WSV225F0G5BM84NC, Extended Request ID: null))
+[2022-02-02 14:13:42,37] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:7:1 [[38;5;2m68f924a6[0m]: Invalidating cache entry CallCachingEntryId(6191) (Cache entry details: Some(48b59516-50c1-4d13-965b-d9aca61c423e:MIGNON.fastqc:127))
+[2022-02-02 14:13:42,41] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:7:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.fastqc:7:1. EJEA attempted to copy 1 cache hits before failing. Of these 1 failed to copy and 0 were already blacklisted from previous attempts). Falling back to running job.
+[2022-02-02 14:13:42,41] [info] BT-322 68f924a6:MIGNON.fastqc:7:1 cache hit copying failure: 1 failed copy attempts of maximum 1000000 with aggregated hashes: initial = 2728EF662AB987541A2D0E218C308471, file = CBCC17DA42ECCC0BB9424380A86FDF3C.
+[2022-02-02 14:13:42,42] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:7:1]: [38;5;5mfastqc -t 2 -o . \
+        \
+       /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-7/cacheCopy/P1376_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-7/cacheCopy/P1376_2.fastq.gz[0m
+[2022-02-02 14:13:42,50] [info] I/O command 1.262 seconds stale, applying I/O subsystem backpressure with scale 1.25
+[2022-02-02 14:13:42,63] [info] I/O command 1.398 seconds stale, applying I/O subsystem backpressure with scale 1.28
+[2022-02-02 14:13:42,77] [info] I/O command 1.528 seconds stale, applying I/O subsystem backpressure with scale 1.31
+[2022-02-02 14:13:42,94] [info] I/O command 1.699 seconds stale, applying I/O subsystem backpressure with scale 1.34
+[2022-02-02 14:13:42,97] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.star' (scatter index: Some(8), attempt 1)
+[2022-02-02 14:13:42,97] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.fastqc' (scatter index: Some(8), attempt 1)
+[2022-02-02 14:13:43,08] [info] I/O command 1.846 seconds stale, applying I/O subsystem backpressure with scale 1.37
+[2022-02-02 14:13:43,11] [info] Submitting taskId: MIGNON.star-Some(4)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_star_2_7_2b--0dffc15adcdc0d741848674ba815492a227e5ec44:1, script: s3://2pcdx/scripts/3c74c968c8d4fe4e98e6b86eaefcd0b7
+[2022-02-02 14:13:43,30] [info] I/O command 2.070 seconds stale, applying I/O subsystem backpressure with scale 1.41
+[2022-02-02 14:13:43,31] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:7:1 [[38;5;2m68f924a6[0m]: Failure copying cache results for job BackendJobDescriptorKey_CommandCallNode_MIGNON.star:7:1 (EnhancedCromwellIoException: [Attempted 1 time(s)] - NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: 9S9TDGXPA9XBXGZ1, Extended Request ID: null))
+[2022-02-02 14:13:43,31] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:7:1 [[38;5;2m68f924a6[0m]: Invalidating cache entry CallCachingEntryId(6222) (Cache entry details: Some(48b59516-50c1-4d13-965b-d9aca61c423e:MIGNON.star:127))
+[2022-02-02 14:13:43,36] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:7:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.star:7:1. EJEA attempted to copy 1 cache hits before failing. Of these 1 failed to copy and 0 were already blacklisted from previous attempts). Falling back to running job.
+[2022-02-02 14:13:43,36] [info] BT-322 68f924a6:MIGNON.star:7:1 cache hit copying failure: 1 failed copy attempts of maximum 1000000 with aggregated hashes: initial = FE4A2FDA5873206A157E30F0484FC3E8, file = F4A8EE251CFB50BA14A184BB58B05591.
+[2022-02-02 14:13:43,36] [[38;5;220mwarn[0m] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:7:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:13:43,38] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:7:1]: [38;5;5mSTAR --runThreadN 16 \
+     --genomeDir /cromwell_root/2pcdx/mignon/data/STARindex \
+     --readFilesIn /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-7/cacheCopy/P1376_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-7/cacheCopy/P1376_2.fastq.gz \
+     --readFilesCommand zcat \
+     --outSAMtype BAM SortedByCoordinate \
+     --outFileNamePrefix P1376 \
+     limitBAMsortRAM 26[0m
+[2022-02-02 14:13:43,49] [info] I/O command 2.252 seconds stale, applying I/O subsystem backpressure with scale 1.45
+[2022-02-02 14:13:43,69] [info] I/O command 2.454 seconds stale, applying I/O subsystem backpressure with scale 1.49
+[2022-02-02 14:13:43,84] [info] I/O command 2.599 seconds stale, applying I/O subsystem backpressure with scale 1.52
+[2022-02-02 14:13:43,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:4:1]: job id: 821ec4f8-ac4b-40e5-9f56-c14d1808ad5d
+[2022-02-02 14:13:43,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:4:1]: job id: 74635bca-f671-4141-b21c-90e6ac13a404
+[2022-02-02 14:13:43,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:4:1]: Status change from - to Initializing
+[2022-02-02 14:13:43,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:4:1]: Status change from - to Initializing
+[2022-02-02 14:13:43,97] [info] I/O command 2.734 seconds stale, applying I/O subsystem backpressure with scale 1.55
+[2022-02-02 14:13:44,10] [info] I/O command 2.857 seconds stale, applying I/O subsystem backpressure with scale 1.57
+[2022-02-02 14:13:44,24] [info] I/O command 2.981 seconds stale, applying I/O subsystem backpressure with scale 1.60
+[2022-02-02 14:13:44,24] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:6:1]: [38;5;5mfastqc -t 2 -o . \
+        \
+       /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-6/cacheCopy/P1544_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-6/cacheCopy/P1544_2.fastq.gz[0m
+[2022-02-02 14:13:44,37] [info] I/O command 3.038 seconds stale, applying I/O subsystem backpressure with scale 1.61
+[2022-02-02 14:13:44,37] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:6:1]: [38;5;5mSTAR --runThreadN 16 \
+     --genomeDir /cromwell_root/2pcdx/mignon/data/STARindex \
+     --readFilesIn /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-6/cacheCopy/P1544_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-6/cacheCopy/P1544_2.fastq.gz \
+     --readFilesCommand zcat \
+     --outSAMtype BAM SortedByCoordinate \
+     --outFileNamePrefix P1544 \
+     limitBAMsortRAM 26[0m
+[2022-02-02 14:13:44,47] [info] Submitting taskId: MIGNON.fastqc-Some(6)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_biocontainers_fastqc_v0_11_5_cv4dd85e91368ede8b162b38f139b556e07b5b3bef0:1, script: s3://2pcdx/scripts/2f565e41691b96ef5bc03c2404901ed7
+[2022-02-02 14:13:44,68] [info] I/O command 3.348 seconds stale, applying I/O subsystem backpressure with scale 1.67
+Feb 02, 2022 2:13:44 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-star/shard-140/P0723Aligned.sortedByCoord.out.bam, objectSize = 8992853102, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-10/cacheCopy/P0723Aligned.sortedByCoord.out.bam, options = [REPLACE_EXISTING]
+Feb 02, 2022 2:13:44 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+[2022-02-02 14:13:45,46] [info] Submitting taskId: MIGNON.star-Some(6)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_star_2_7_2b--0dffc15adcdc0d741848674ba815492a227e5ec44:1, script: s3://2pcdx/scripts/ee640dac02bf089418f901caefe3aa18
+[2022-02-02 14:13:45,54] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.filterBam
+[2022-02-02 14:13:48,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:6:1]: job id: 0b0a949d-e2a4-4380-8ac3-2dd34fe70af4
+[2022-02-02 14:13:48,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:6:1]: job id: f37ed8ec-bc5c-4a66-bee1-a16991d90aff
+[2022-02-02 14:13:48,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:6:1]: Status change from - to Initializing
+[2022-02-02 14:13:48,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:6:1]: Status change from - to Initializing
+[2022-02-02 14:13:51,47] [info] I/O command 10.129 seconds stale, applying I/O subsystem backpressure with scale 3.03
+[2022-02-02 14:13:51,47] [info] Extending IoActor backpressure 15.63 seconds
+[2022-02-02 14:13:51,47] [info] BT-322 68f924a6:MIGNON.fastp:1:1 cache hit copying success with aggregated hashes: initial = 331B5326BD44E64512B1BB7AA5852F72, file = B4478E21E8BFCAE03FE3DBD4E1191C71.
+[2022-02-02 14:13:51,47] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastp:1:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:13:51,70] [info] I/O command 10.358 seconds stale, applying I/O subsystem backpressure with scale 3.07
+[2022-02-02 14:13:51,91] [info] I/O command 10.575 seconds stale, applying I/O subsystem backpressure with scale 3.12
+[2022-02-02 14:13:51,95] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.fastp' (scatter index: Some(1), attempt 1)
+[2022-02-02 14:13:52,12] [info] I/O command 10.776 seconds stale, applying I/O subsystem backpressure with scale 3.16
+[2022-02-02 14:13:52,37] [info] I/O command 11.035 seconds stale, applying I/O subsystem backpressure with scale 3.21
+[2022-02-02 14:13:52,57] [info] I/O command 11.227 seconds stale, applying I/O subsystem backpressure with scale 3.25
+[2022-02-02 14:13:52,79] [info] I/O command 11.454 seconds stale, applying I/O subsystem backpressure with scale 3.29
+[2022-02-02 14:13:53,01] [info] I/O command 11.678 seconds stale, applying I/O subsystem backpressure with scale 3.34
+[2022-02-02 14:13:53,32] [info] I/O command 11.984 seconds stale, applying I/O subsystem backpressure with scale 3.40
+[2022-02-02 14:13:53,32] [info] BT-322 68f924a6:MIGNON.fastqc:10:1 cache hit copying success with aggregated hashes: initial = A7D5276FA42D16F5ED050140032EEA2B, file = E2A331B0DBCD508235080ECD07360948.
+[2022-02-02 14:13:53,32] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:10:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:13:53,59] [info] I/O command 12.248 seconds stale, applying I/O subsystem backpressure with scale 3.45
+[2022-02-02 14:13:53,70] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.salmon, MIGNON.star, MIGNON.fastqc
+[2022-02-02 14:13:53,76] [info] I/O command 12.410 seconds stale, applying I/O subsystem backpressure with scale 3.48
+[2022-02-02 14:13:53,91] [info] I/O command 12.554 seconds stale, applying I/O subsystem backpressure with scale 3.51
+[2022-02-02 14:13:53,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:6:1]: [38;5;5msalmon quant -p 8 -i /cromwell_root/2pcdx/mignon/data/SALMONindex -l A \
+                 -1 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-6/cacheCopy/P1544_1.fastq.gz \
+                 -2 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-6/cacheCopy/P1544_2.fastq.gz \
+                 -o P1544 \[0m
+[2022-02-02 14:13:54,06] [info] I/O command 12.585 seconds stale, applying I/O subsystem backpressure with scale 3.52
+[2022-02-02 14:13:54,06] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:4:1]: [38;5;5msalmon quant -p 8 -i /cromwell_root/2pcdx/mignon/data/SALMONindex -l A \
+                 -1 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-4/cacheCopy/P0866_1.fastq.gz \
+                 -2 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-4/cacheCopy/P0866_2.fastq.gz \
+                 -o P0866 \[0m
+[2022-02-02 14:13:54,26] [info] I/O command 12.785 seconds stale, applying I/O subsystem backpressure with scale 3.56
+[2022-02-02 14:13:54,48] [info] I/O command 13.002 seconds stale, applying I/O subsystem backpressure with scale 3.60
+[2022-02-02 14:13:54,59] [info] Submitting taskId: MIGNON.salmon-Some(6)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_salmon_0_13_0--h86b0361_27462989fc48283586fbadf6d94634dda8eb7e61c:1, script: s3://2pcdx/scripts/0a85bc013b98b1ae4f4030282b58eee6
+[2022-02-02 14:13:54,70] [info] I/O command 13.228 seconds stale, applying I/O subsystem backpressure with scale 3.65
+[2022-02-02 14:13:54,94] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.fastqc' (scatter index: Some(10), attempt 1)
+[2022-02-02 14:13:54,95] [info] Submitting taskId: MIGNON.salmon-Some(4)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_salmon_0_13_0--h86b0361_27462989fc48283586fbadf6d94634dda8eb7e61c:1, script: s3://2pcdx/scripts/59501067c6c9918a610a96bd55e3fd5e
+[2022-02-02 14:13:55,36] [info] I/O command 13.890 seconds stale, applying I/O subsystem backpressure with scale 3.78
+[2022-02-02 14:13:55,56] [info] I/O command 14.082 seconds stale, applying I/O subsystem backpressure with scale 3.82
+[2022-02-02 14:13:55,56] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-BackendCacheHitCopyingActor-68f924a6:MIGNON.salmon:10:1-4027 [[38;5;2m68f924a6[0mMIGNON.salmon:10:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:13:55,56] [info] BT-322 68f924a6:MIGNON.salmon:10:1 cache hit copying success with aggregated hashes: initial = C1F7C0944FD7EDAD22F9C3BB4BFE8F6E, file = B7E821BE879D4EDE36421FFB380546D5.
+[2022-02-02 14:13:55,56] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:10:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:13:55,71] [info] I/O command 14.233 seconds stale, applying I/O subsystem backpressure with scale 3.85
+[2022-02-02 14:13:55,71] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:7:1 [[38;5;2m68f924a6[0m]: Failure copying cache results for job BackendJobDescriptorKey_CommandCallNode_MIGNON.salmon:7:1 (EnhancedCromwellIoException: [Attempted 1 time(s)] - NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: AHPGRVJCG4X09CYB, Extended Request ID: null))
+[2022-02-02 14:13:55,71] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:7:1 [[38;5;2m68f924a6[0m]: Invalidating cache entry CallCachingEntryId(6183) (Cache entry details: Some(48b59516-50c1-4d13-965b-d9aca61c423e:MIGNON.salmon:127))
+[2022-02-02 14:13:55,75] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:7:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.salmon:7:1. EJEA attempted to copy 1 cache hits before failing. Of these 1 failed to copy and 0 were already blacklisted from previous attempts). Falling back to running job.
+[2022-02-02 14:13:55,75] [info] BT-322 68f924a6:MIGNON.salmon:7:1 cache hit copying failure: 1 failed copy attempts of maximum 1000000 with aggregated hashes: initial = 35D25548D65C4D90F7F2B502D2677A5D, file = F4A8EE251CFB50BA14A184BB58B05591.
+[2022-02-02 14:13:55,75] [[38;5;220mwarn[0m] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:7:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:13:55,76] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:7:1]: [38;5;5msalmon quant -p 8 -i /cromwell_root/2pcdx/mignon/data/SALMONindex -l A \
+                 -1 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-7/cacheCopy/P1376_1.fastq.gz \
+                 -2 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-7/cacheCopy/P1376_2.fastq.gz \
+                 -o P1376 \[0m
+[2022-02-02 14:13:55,85] [info] I/O command 14.373 seconds stale, applying I/O subsystem backpressure with scale 3.87
+[2022-02-02 14:13:56,01] [info] I/O command 14.527 seconds stale, applying I/O subsystem backpressure with scale 3.91
+[2022-02-02 14:13:56,12] [info] I/O command 14.645 seconds stale, applying I/O subsystem backpressure with scale 3.93
+[2022-02-02 14:13:56,25] [info] I/O command 14.760 seconds stale, applying I/O subsystem backpressure with scale 3.95
+[2022-02-02 14:13:56,51] [info] I/O command 15.023 seconds stale, applying I/O subsystem backpressure with scale 4.00
+[2022-02-02 14:13:56,76] [info] I/O command 15.272 seconds stale, applying I/O subsystem backpressure with scale 4.05
+[2022-02-02 14:13:56,97] [info] I/O command 15.488 seconds stale, applying I/O subsystem backpressure with scale 4.10
+[2022-02-02 14:13:57,60] [info] I/O command 16.112 seconds stale, applying I/O subsystem backpressure with scale 4.22
+[2022-02-02 14:13:57,61] [info] BT-322 68f924a6:MIGNON.fastp:0:1 cache hit copying success with aggregated hashes: initial = 5FDBA39CCAEF6BF08501931C0F021108, file = 7E6BB378E8B607D4EF7CA5771499A7C3.
+[2022-02-02 14:13:57,61] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastp:0:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:13:57,64] [info] I/O command 10.218 seconds stale, applying I/O subsystem backpressure with scale 3.04
+[2022-02-02 14:13:57,77] [info] I/O command 9.387 seconds stale, applying I/O subsystem backpressure with scale 2.88
+[2022-02-02 14:13:57,77] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:7:1]: [38;5;5mfastqc -t 2 -o . \
+        \
+       /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-7/cacheCopy/P1376_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-7/cacheCopy/P1376_2.fastq.gz[0m
+[2022-02-02 14:13:57,85] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-BackendCacheHitCopyingActor-68f924a6:MIGNON.salmon:8:1-3895 [[38;5;2m68f924a6[0mMIGNON.salmon:8:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:13:57,85] [info] BT-322 68f924a6:MIGNON.salmon:8:1 cache hit copying success with aggregated hashes: initial = CC11EC17429001DAB99D96769B24D18F, file = 4E98297D9AFE07B594DB7236E4E7692C.
+[2022-02-02 14:13:57,85] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:8:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:13:57,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:7:1]: [38;5;5mSTAR --runThreadN 16 \
+     --genomeDir /cromwell_root/2pcdx/mignon/data/STARindex \
+     --readFilesIn /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-7/cacheCopy/P1376_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-7/cacheCopy/P1376_2.fastq.gz \
+     --readFilesCommand zcat \
+     --outSAMtype BAM SortedByCoordinate \
+     --outFileNamePrefix P1376 \
+     limitBAMsortRAM 26[0m
+[2022-02-02 14:13:57,97] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:7:1]: [38;5;5msalmon quant -p 8 -i /cromwell_root/2pcdx/mignon/data/SALMONindex -l A \
+                 -1 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-7/cacheCopy/P1376_1.fastq.gz \
+                 -2 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-7/cacheCopy/P1376_2.fastq.gz \
+                 -o P1376 \[0m
+[2022-02-02 14:13:57,97] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.fastp' (scatter index: Some(0), attempt 1)
+[2022-02-02 14:13:57,97] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.salmon' (scatter index: Some(8), attempt 1)
+[2022-02-02 14:13:57,97] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.salmon' (scatter index: Some(10), attempt 1)
+[2022-02-02 14:13:57,99] [info] Submitting taskId: MIGNON.fastqc-Some(7)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_biocontainers_fastqc_v0_11_5_cv4dd85e91368ede8b162b38f139b556e07b5b3bef0:1, script: s3://2pcdx/scripts/f410b1c48761f64748d318862a615f02
+[2022-02-02 14:13:58,59] [info] Submitting taskId: MIGNON.salmon-Some(7)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_salmon_0_13_0--h86b0361_27462989fc48283586fbadf6d94634dda8eb7e61c:1, script: s3://2pcdx/scripts/b2fe12eea3f5cfe8324b008a1478b6e3
+[2022-02-02 14:13:58,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:6:1]: job id: ad46818a-7902-4bd4-a228-11e8a5504d18
+[2022-02-02 14:13:58,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:7:1]: job id: 67310408-de67-41fd-b3e7-18fcf3667502
+[2022-02-02 14:13:58,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:4:1]: job id: 8b8fb825-1116-426e-94c4-09045ee7547e
+[2022-02-02 14:13:58,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:7:1]: job id: 8c6350c7-8ac8-42fc-94da-3e34f697bef3
+[2022-02-02 14:13:58,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:6:1]: Status change from - to Initializing
+[2022-02-02 14:13:58,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:7:1]: Status change from - to Initializing
+[2022-02-02 14:13:58,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:4:1]: Status change from - to Initializing
+[2022-02-02 14:13:58,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:7:1]: Status change from - to Initializing
+[2022-02-02 14:13:59,12] [info] Submitting taskId: MIGNON.star-Some(7)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_star_2_7_2b--0dffc15adcdc0d741848674ba815492a227e5ec44:1, script: s3://2pcdx/scripts/de0e9e6f5fe0ffe83aeeb9f8b3a815e5
+[2022-02-02 14:13:59,82] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.fastqc, MIGNON.salmon, MIGNON.star
+Feb 02, 2022 2:14:02 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+Feb 02, 2022 2:14:02 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+[2022-02-02 14:14:02,82] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-BackendCacheHitCopyingActor-68f924a6:MIGNON.star:10:1-4056 [[38;5;2m68f924a6[0mMIGNON.star:10:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:14:02,82] [info] BT-322 68f924a6:MIGNON.star:10:1 cache hit copying success with aggregated hashes: initial = 360161C973477FB4A9FD03AE7705C644, file = B7E821BE879D4EDE36421FFB380546D5.
+[2022-02-02 14:14:02,82] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:10:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:14:03,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:7:1]: job id: 8eb44f6d-8cd7-4038-a81c-d2e9f94a2dd7
+[2022-02-02 14:14:03,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:7:1]: Status change from - to Initializing
+[2022-02-02 14:14:03,97] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.star' (scatter index: Some(10), attempt 1)
+[2022-02-02 14:14:05,94] [info] BT-322 68f924a6:MIGNON.fastp:3:1 cache hit copying success with aggregated hashes: initial = 4A17C5902A4277BC0CA3117FA969F3DC, file = 8F3FF947C05741B83AF381AD5482E96A.
+[2022-02-02 14:14:05,94] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastp:3:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:14:06,95] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.fastp' (scatter index: Some(3), attempt 1)
+[2022-02-02 14:14:06,96] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.filterBam
+[2022-02-02 14:14:07,98] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.fastqc, MIGNON.star, MIGNON.salmon
+[2022-02-02 14:14:10,29] [info] BT-322 68f924a6:MIGNON.fastp:5:1 cache hit copying success with aggregated hashes: initial = F3CA743E6D6156A8A9C0647312A2D2F3, file = CE75BC957B77E0D344C6D28E44C79ED0.
+[2022-02-02 14:14:10,29] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastp:5:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:14:12,95] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.fastp' (scatter index: Some(5), attempt 1)
+[2022-02-02 14:14:14,10] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.salmon, MIGNON.fastqc, MIGNON.star
+[2022-02-02 14:14:22,08] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:4:1]: Status change from Initializing to Running
+[2022-02-02 14:14:36,51] [info] BT-322 68f924a6:MIGNON.fastp:9:1 cache hit copying success with aggregated hashes: initial = 2FECFE7127331F0B2BC8E71E6B4010FD, file = A6C32002976D7CCB026A823E125CA05E.
+[2022-02-02 14:14:36,51] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastp:9:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:14:36,95] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.fastp' (scatter index: Some(9), attempt 1)
+[2022-02-02 14:14:38,58] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.star, MIGNON.fastqc, MIGNON.salmon
+[2022-02-02 14:14:40,43] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.ensembldb:NA:1]: Status change from Initializing to Running
+[2022-02-02 14:14:57,66] [info] IoActor backpressure off
+[2022-02-02 14:14:58,88] [info] JobExecutionTokenDispenser - Load back to normal
+[2022-02-02 14:15:08,91] [info] Assigned new job execution tokens to the following groups: 68f924a6: 17
+[2022-02-02 14:15:08,92] [info] BT-322 68f924a6:MIGNON.fastqc:0:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:08,92] [info] BT-322 68f924a6:MIGNON.fastqc:3:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:08,92] [info] BT-322 68f924a6:MIGNON.fastqc:5:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:08,92] [info] BT-322 68f924a6:MIGNON.salmon:0:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:08,92] [info] BT-322 68f924a6:MIGNON.star:3:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:08,92] [info] BT-322 68f924a6:MIGNON.salmon:1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:08,93] [info] BT-322 68f924a6:MIGNON.salmon:3:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:08,94] [info] BT-322 68f924a6:MIGNON.fastqc:1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:08,94] [info] BT-322 68f924a6:MIGNON.star:1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:08,94] [info] BT-322 68f924a6:MIGNON.star:5:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:08,94] [info] BT-322 68f924a6:MIGNON.salmon:5:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:08,94] [info] BT-322 68f924a6:MIGNON.star:0:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:08,94] [info] BT-322 68f924a6:MIGNON.fastqc:9:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:08,95] [info] BT-322 68f924a6:MIGNON.star:9:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:08,95] [info] BT-322 68f924a6:MIGNON.salmon:9:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:08,98] [info] BT-322 68f924a6:MIGNON.filterBam:10:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:08,98] [info] BT-322 68f924a6:MIGNON.filterBam:8:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:09,49] [info] BT-322 68f924a6:MIGNON.filterBam:10:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:15:09,49] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.filterBam:10:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.filterBam:10:1. No copy attempts were made.
+[2022-02-02 14:15:09,50] [info] BT-322 68f924a6:MIGNON.filterBam:8:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:15:09,50] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.filterBam:8:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.filterBam:8:1. No copy attempts were made.
+[2022-02-02 14:15:09,50] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:10:1]: [38;5;5msamtools view  -F 4 --threads 4 -O BAM -o P0723_filtered.bam /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-10/cacheCopy/P0723Aligned.sortedByCoord.out.bam[0m
+[2022-02-02 14:15:09,51] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:8:1]: [38;5;5msamtools view  -F 4 --threads 4 -O BAM -o P0375_filtered.bam /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-8/cacheCopy/P0375Aligned.sortedByCoord.out.bam[0m
+[2022-02-02 14:15:09,69] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:3:1 [[38;5;2m68f924a6[0m]: Failure copying cache results for job BackendJobDescriptorKey_CommandCallNode_MIGNON.salmon:3:1 (EnhancedCromwellIoException: [Attempted 1 time(s)] - NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: XRTFQDHXBDW3A8DB, Extended Request ID: null))
+[2022-02-02 14:15:09,69] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:3:1 [[38;5;2m68f924a6[0m]: Invalidating cache entry CallCachingEntryId(6240) (Cache entry details: Some(48b59516-50c1-4d13-965b-d9aca61c423e:MIGNON.salmon:65))
+[2022-02-02 14:15:09,69] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:3:1 [[38;5;2m68f924a6[0m]: Failure copying cache results for job BackendJobDescriptorKey_CommandCallNode_MIGNON.star:3:1 (EnhancedCromwellIoException: [Attempted 1 time(s)] - NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: XRT9VG39GDTRPSMV, Extended Request ID: null))
+[2022-02-02 14:15:09,70] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:3:1 [[38;5;2m68f924a6[0m]: Invalidating cache entry CallCachingEntryId(6274) (Cache entry details: Some(48b59516-50c1-4d13-965b-d9aca61c423e:MIGNON.star:65))
+[2022-02-02 14:15:09,72] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:10:1]: [38;5;5msamtools view  -F 4 --threads 4 -O BAM -o P0723_filtered.bam /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-10/cacheCopy/P0723Aligned.sortedByCoord.out.bam[0m
+[2022-02-02 14:15:09,78] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:8:1]: [38;5;5msamtools view  -F 4 --threads 4 -O BAM -o P0375_filtered.bam /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-8/cacheCopy/P0375Aligned.sortedByCoord.out.bam[0m
+[2022-02-02 14:15:09,93] [info] BT-322 68f924a6:MIGNON.star:5:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:15:09,93] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:5:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.star:5:1. No copy attempts were made.
+[2022-02-02 14:15:09,93] [[38;5;220mwarn[0m] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:5:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:15:09,93] [info] BT-322 68f924a6:MIGNON.fastqc:5:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:15:09,93] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:5:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.fastqc:5:1. No copy attempts were made.
+[2022-02-02 14:15:09,95] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:5:1]: [38;5;5mfastqc -t 2 -o . \
+        \
+       /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-5/cacheCopy/P0922_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-5/cacheCopy/P0922_2.fastq.gz[0m
+[2022-02-02 14:15:09,95] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:5:1]: [38;5;5mSTAR --runThreadN 16 \
+     --genomeDir /cromwell_root/2pcdx/mignon/data/STARindex \
+     --readFilesIn /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-5/cacheCopy/P0922_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-5/cacheCopy/P0922_2.fastq.gz \
+     --readFilesCommand zcat \
+     --outSAMtype BAM SortedByCoordinate \
+     --outFileNamePrefix P0922 \
+     limitBAMsortRAM 26[0m
+[2022-02-02 14:15:09,98] [info] BT-322 68f924a6:MIGNON.salmon:5:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:15:09,98] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:5:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.salmon:5:1. No copy attempts were made.
+[2022-02-02 14:15:09,98] [[38;5;220mwarn[0m] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:5:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:15:10,00] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:5:1]: [38;5;5msalmon quant -p 8 -i /cromwell_root/2pcdx/mignon/data/SALMONindex -l A \
+                 -1 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-5/cacheCopy/P0922_1.fastq.gz \
+                 -2 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-5/cacheCopy/P0922_2.fastq.gz \
+                 -o P0922 \[0m
+Feb 02, 2022 2:15:10 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-star/shard-41/P0481Aligned.sortedByCoord.out.bam, objectSize = 6733123616, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-1/cacheCopy/P0481Aligned.sortedByCoord.out.bam, options = [REPLACE_EXISTING]
+[2022-02-02 14:15:10,03] [info] Submitting taskId: MIGNON.filterBam-Some(10)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_samtools_1_9--h8571acd_112174fff1535199d19baa07b78190d495e1ac4cee:1, script: s3://2pcdx/scripts/d6519f51380dc07215d33c98019a03ad
+Feb 02, 2022 2:15:10 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+[2022-02-02 14:15:10,09] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:3:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.salmon:3:1. EJEA attempted to copy 1 cache hits before failing. Of these 1 failed to copy and 0 were already blacklisted from previous attempts). Falling back to running job.
+[2022-02-02 14:15:10,09] [info] BT-322 68f924a6:MIGNON.salmon:3:1 cache hit copying failure: 1 failed copy attempts of maximum 1000000 with aggregated hashes: initial = FCD785826231A16E79ACFC80CF942BA3, file = 218B6DEE273C170ED21AE99F0779B88F.
+[2022-02-02 14:15:10,09] [[38;5;220mwarn[0m] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:3:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:15:10,10] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:3:1]: [38;5;5msalmon quant -p 8 -i /cromwell_root/2pcdx/mignon/data/SALMONindex -l A \
+                 -1 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-3/cacheCopy/P1318_1.fastq.gz \
+                 -2 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-3/cacheCopy/P1318_2.fastq.gz \
+                 -o P1318 \[0m
+[2022-02-02 14:15:10,11] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:3:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.star:3:1. EJEA attempted to copy 1 cache hits before failing. Of these 1 failed to copy and 0 were already blacklisted from previous attempts). Falling back to running job.
+[2022-02-02 14:15:10,11] [info] BT-322 68f924a6:MIGNON.star:3:1 cache hit copying failure: 1 failed copy attempts of maximum 1000000 with aggregated hashes: initial = 9CE4921565C3CC2F0279EDA70C04C738, file = 218B6DEE273C170ED21AE99F0779B88F.
+[2022-02-02 14:15:10,11] [[38;5;220mwarn[0m] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:3:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:15:10,13] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:3:1]: [38;5;5mSTAR --runThreadN 16 \
+     --genomeDir /cromwell_root/2pcdx/mignon/data/STARindex \
+     --readFilesIn /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-3/cacheCopy/P1318_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-3/cacheCopy/P1318_2.fastq.gz \
+     --readFilesCommand zcat \
+     --outSAMtype BAM SortedByCoordinate \
+     --outFileNamePrefix P1318 \
+     limitBAMsortRAM 26[0m
+[2022-02-02 14:15:10,22] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:3:1 [[38;5;2m68f924a6[0m]: Failure copying cache results for job BackendJobDescriptorKey_CommandCallNode_MIGNON.fastqc:3:1 (EnhancedCromwellIoException: [Attempted 1 time(s)] - NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: 4QH4YPVF9RT24C6P, Extended Request ID: null))
+[2022-02-02 14:15:10,22] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:3:1 [[38;5;2m68f924a6[0m]: Invalidating cache entry CallCachingEntryId(6244) (Cache entry details: Some(48b59516-50c1-4d13-965b-d9aca61c423e:MIGNON.fastqc:65))
+[2022-02-02 14:15:10,27] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:3:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.fastqc:3:1. EJEA attempted to copy 1 cache hits before failing. Of these 1 failed to copy and 0 were already blacklisted from previous attempts). Falling back to running job.
+[2022-02-02 14:15:10,27] [info] BT-322 68f924a6:MIGNON.fastqc:3:1 cache hit copying failure: 1 failed copy attempts of maximum 1000000 with aggregated hashes: initial = 9ECF8CCA0924C46B44335991E7D960E9, file = 451AAAC7F5A3A48D8175604F9B5610DE.
+[2022-02-02 14:15:10,28] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:3:1]: [38;5;5mfastqc -t 2 -o . \
+        \
+       /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-3/cacheCopy/P1318_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-3/cacheCopy/P1318_2.fastq.gz[0m
+[2022-02-02 14:15:10,44] [info] Submitting taskId: MIGNON.filterBam-Some(8)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_samtools_1_9--h8571acd_112174fff1535199d19baa07b78190d495e1ac4cee:1, script: s3://2pcdx/scripts/1ce3d7d33a38a06695c4cf57edd91d8e
+[2022-02-02 14:15:11,02] [info] BT-322 68f924a6:MIGNON.fastqc:1:1 cache hit copying success with aggregated hashes: initial = 23CB9901EC889CF1D44D45502F72C84D, file = DB59A799EC84CA4D45C0F6EE4D2E90EE.
+[2022-02-02 14:15:11,02] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:1:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:15:11,22] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:9:1 [[38;5;2m68f924a6[0m]: Failure copying cache results for job BackendJobDescriptorKey_CommandCallNode_MIGNON.fastqc:9:1 (EnhancedCromwellIoException: [Attempted 1 time(s)] - NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: 6CRXTQ3ZCR6ZS2N3, Extended Request ID: null))
+[2022-02-02 14:15:11,22] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:9:1 [[38;5;2m68f924a6[0m]: Invalidating cache entry CallCachingEntryId(6075) (Cache entry details: Some(48b59516-50c1-4d13-965b-d9aca61c423e:MIGNON.fastqc:138))
+[2022-02-02 14:15:11,27] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:9:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.fastqc:9:1. EJEA attempted to copy 1 cache hits before failing. Of these 1 failed to copy and 0 were already blacklisted from previous attempts). Falling back to running job.
+[2022-02-02 14:15:11,27] [info] BT-322 68f924a6:MIGNON.fastqc:9:1 cache hit copying failure: 1 failed copy attempts of maximum 1000000 with aggregated hashes: initial = 818BBAFF0819FFDE7538E78FF4C0A0C0, file = 44129D4A1A12885A99CD679ECB566D2D.
+[2022-02-02 14:15:11,28] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:9:1]: [38;5;5mfastqc -t 2 -o . \
+        \
+       /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-9/cacheCopy/P0565_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-9/cacheCopy/P0565_2.fastq.gz[0m
+[2022-02-02 14:15:11,43] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:9:1 [[38;5;2m68f924a6[0m]: Failure copying cache results for job BackendJobDescriptorKey_CommandCallNode_MIGNON.star:9:1 (EnhancedCromwellIoException: [Attempted 1 time(s)] - NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: 6CRZNWXY0CCVFN2D, Extended Request ID: null))
+[2022-02-02 14:15:11,43] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:9:1 [[38;5;2m68f924a6[0m]: Invalidating cache entry CallCachingEntryId(6064) (Cache entry details: Some(48b59516-50c1-4d13-965b-d9aca61c423e:MIGNON.star:138))
+[2022-02-02 14:15:11,47] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:9:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.star:9:1. EJEA attempted to copy 1 cache hits before failing. Of these 1 failed to copy and 0 were already blacklisted from previous attempts). Falling back to running job.
+[2022-02-02 14:15:11,47] [info] BT-322 68f924a6:MIGNON.star:9:1 cache hit copying failure: 1 failed copy attempts of maximum 1000000 with aggregated hashes: initial = 5C4C6E828F7F603BDCC39ADA274E199A, file = 3C1ED297C552A6AD2DFD77B53D58FA98.
+[2022-02-02 14:15:11,47] [[38;5;220mwarn[0m] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:9:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:15:11,48] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:9:1]: [38;5;5mSTAR --runThreadN 16 \
+     --genomeDir /cromwell_root/2pcdx/mignon/data/STARindex \
+     --readFilesIn /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-9/cacheCopy/P0565_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-9/cacheCopy/P0565_2.fastq.gz \
+     --readFilesCommand zcat \
+     --outSAMtype BAM SortedByCoordinate \
+     --outFileNamePrefix P0565 \
+     limitBAMsortRAM 26[0m
+[2022-02-02 14:15:11,96] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:5:1]: [38;5;5mfastqc -t 2 -o . \
+        \
+       /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-5/cacheCopy/P0922_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-5/cacheCopy/P0922_2.fastq.gz[0m
+[2022-02-02 14:15:11,98] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:5:1]: [38;5;5mSTAR --runThreadN 16 \
+     --genomeDir /cromwell_root/2pcdx/mignon/data/STARindex \
+     --readFilesIn /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-5/cacheCopy/P0922_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-5/cacheCopy/P0922_2.fastq.gz \
+     --readFilesCommand zcat \
+     --outSAMtype BAM SortedByCoordinate \
+     --outFileNamePrefix P0922 \
+     limitBAMsortRAM 26[0m
+[2022-02-02 14:15:12,00] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-BackendCacheHitCopyingActor-68f924a6:MIGNON.salmon:1:1-3891 [[38;5;2m68f924a6[0mMIGNON.salmon:1:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:15:12,00] [info] BT-322 68f924a6:MIGNON.salmon:1:1 cache hit copying success with aggregated hashes: initial = DB671C99BD312AFC674A81943F3E8CBD, file = 582E8DE2600657040F25C13612608140.
+[2022-02-02 14:15:12,00] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:1:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:15:12,04] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:9:1 [[38;5;2m68f924a6[0m]: Failure copying cache results for job BackendJobDescriptorKey_CommandCallNode_MIGNON.salmon:9:1 (EnhancedCromwellIoException: [Attempted 1 time(s)] - NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: JH9AXJVAR8HBQQCH, Extended Request ID: null))
+[2022-02-02 14:15:12,04] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:9:1 [[38;5;2m68f924a6[0m]: Invalidating cache entry CallCachingEntryId(6062) (Cache entry details: Some(48b59516-50c1-4d13-965b-d9aca61c423e:MIGNON.salmon:138))
+[2022-02-02 14:15:12,08] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:9:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.salmon:9:1. EJEA attempted to copy 1 cache hits before failing. Of these 1 failed to copy and 0 were already blacklisted from previous attempts). Falling back to running job.
+[2022-02-02 14:15:12,08] [info] BT-322 68f924a6:MIGNON.salmon:9:1 cache hit copying failure: 1 failed copy attempts of maximum 1000000 with aggregated hashes: initial = F964B3CD186BD05CDA93F4E8220274BC, file = 3C1ED297C552A6AD2DFD77B53D58FA98.
+[2022-02-02 14:15:12,08] [[38;5;220mwarn[0m] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:9:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:15:12,09] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:9:1]: [38;5;5msalmon quant -p 8 -i /cromwell_root/2pcdx/mignon/data/SALMONindex -l A \
+                 -1 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-9/cacheCopy/P0565_1.fastq.gz \
+                 -2 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-9/cacheCopy/P0565_2.fastq.gz \
+                 -o P0565 \[0m
+[2022-02-02 14:15:12,17] [info] Submitting taskId: MIGNON.fastqc-Some(5)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_biocontainers_fastqc_v0_11_5_cv4dd85e91368ede8b162b38f139b556e07b5b3bef0:1, script: s3://2pcdx/scripts/d6709d993749f4c4685159ecc1746ff4
+Feb 02, 2022 2:15:12 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-star/shard-20/P0854Aligned.sortedByCoord.out.bam, objectSize = 8200160231, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-0/cacheCopy/P0854Aligned.sortedByCoord.out.bam, options = [REPLACE_EXISTING]
+Feb 02, 2022 2:15:12 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+Feb 02, 2022 2:15:12 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+[2022-02-02 14:15:12,51] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:5:1]: [38;5;5msalmon quant -p 8 -i /cromwell_root/2pcdx/mignon/data/SALMONindex -l A \
+                 -1 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-5/cacheCopy/P0922_1.fastq.gz \
+                 -2 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-5/cacheCopy/P0922_2.fastq.gz \
+                 -o P0922 \[0m
+[2022-02-02 14:15:12,94] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:3:1]: [38;5;5mSTAR --runThreadN 16 \
+     --genomeDir /cromwell_root/2pcdx/mignon/data/STARindex \
+     --readFilesIn /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-3/cacheCopy/P1318_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-3/cacheCopy/P1318_2.fastq.gz \
+     --readFilesCommand zcat \
+     --outSAMtype BAM SortedByCoordinate \
+     --outFileNamePrefix P1318 \
+     limitBAMsortRAM 26[0m
+[2022-02-02 14:15:12,96] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.fastqc' (scatter index: Some(1), attempt 1)
+[2022-02-02 14:15:12,96] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.salmon' (scatter index: Some(1), attempt 1)
+Feb 02, 2022 2:15:12 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+[2022-02-02 14:15:12,97] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-BackendCacheHitCopyingActor-68f924a6:MIGNON.star:1:1-3910 [[38;5;2m68f924a6[0mMIGNON.star:1:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:15:12,97] [info] BT-322 68f924a6:MIGNON.star:1:1 cache hit copying success with aggregated hashes: initial = 2CB17EF7EE95FEBD8C3B479441F6B99C, file = 582E8DE2600657040F25C13612608140.
+[2022-02-02 14:15:12,97] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:1:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:15:13,01] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:3:1]: [38;5;5msalmon quant -p 8 -i /cromwell_root/2pcdx/mignon/data/SALMONindex -l A \
+                 -1 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-3/cacheCopy/P1318_1.fastq.gz \
+                 -2 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-3/cacheCopy/P1318_2.fastq.gz \
+                 -o P1318 \[0m
+[2022-02-02 14:15:13,10] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:9:1]: [38;5;5mSTAR --runThreadN 16 \
+     --genomeDir /cromwell_root/2pcdx/mignon/data/STARindex \
+     --readFilesIn /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-9/cacheCopy/P0565_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-9/cacheCopy/P0565_2.fastq.gz \
+     --readFilesCommand zcat \
+     --outSAMtype BAM SortedByCoordinate \
+     --outFileNamePrefix P0565 \
+     limitBAMsortRAM 26[0m
+[2022-02-02 14:15:13,12] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:3:1]: [38;5;5mfastqc -t 2 -o . \
+        \
+       /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-3/cacheCopy/P1318_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-3/cacheCopy/P1318_2.fastq.gz[0m
+[2022-02-02 14:15:13,19] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:9:1]: [38;5;5mfastqc -t 2 -o . \
+        \
+       /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-9/cacheCopy/P0565_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-9/cacheCopy/P0565_2.fastq.gz[0m
+[2022-02-02 14:15:13,22] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:9:1]: [38;5;5msalmon quant -p 8 -i /cromwell_root/2pcdx/mignon/data/SALMONindex -l A \
+                 -1 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-9/cacheCopy/P0565_1.fastq.gz \
+                 -2 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-9/cacheCopy/P0565_2.fastq.gz \
+                 -o P0565 \[0m
+[2022-02-02 14:15:13,40] [info] BT-322 68f924a6:MIGNON.fastqc:0:1 cache hit copying success with aggregated hashes: initial = 3E943C1B5B30C2BE9A8E084B8FFFD171, file = 367325CE708996A4979EDAD139FA8B91.
+[2022-02-02 14:15:13,40] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:0:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:15:13,40] [info] Submitting taskId: MIGNON.star-Some(5)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_star_2_7_2b--0dffc15adcdc0d741848674ba815492a227e5ec44:1, script: s3://2pcdx/scripts/f60414f20b4095563bbe5bd45ab65016
+[2022-02-02 14:15:13,81] [info] Submitting taskId: MIGNON.fastqc-Some(3)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_biocontainers_fastqc_v0_11_5_cv4dd85e91368ede8b162b38f139b556e07b5b3bef0:1, script: s3://2pcdx/scripts/df9a04933b7e572cd2b1ecd843ad0f5b
+[2022-02-02 14:15:13,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:8:1]: job id: 50d147d2-adfa-45cc-b665-24741f297886
+[2022-02-02 14:15:13,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:10:1]: job id: 4ca17861-eeb1-4505-a8c0-e02d6a3d809b
+[2022-02-02 14:15:13,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:3:1]: job id: 0bde056d-6de9-4397-ae89-7d33b363c93d
+[2022-02-02 14:15:13,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:5:1]: job id: 89aa750d-749a-45bd-b74b-4498b51b3779
+[2022-02-02 14:15:13,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:5:1]: job id: 94d443e6-6117-44f7-b4a6-35f117b2de23
+[2022-02-02 14:15:13,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:5:1]: Status change from - to Initializing
+[2022-02-02 14:15:13,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:8:1]: Status change from - to Initializing
+[2022-02-02 14:15:13,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:10:1]: Status change from - to Initializing
+[2022-02-02 14:15:13,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:5:1]: Status change from - to Initializing
+[2022-02-02 14:15:13,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:3:1]: Status change from - to Initializing
+[2022-02-02 14:15:14,05] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-BackendCacheHitCopyingActor-68f924a6:MIGNON.salmon:0:1-4047 [[38;5;2m68f924a6[0mMIGNON.salmon:0:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:15:14,05] [info] BT-322 68f924a6:MIGNON.salmon:0:1 cache hit copying success with aggregated hashes: initial = AB1D580EB8D60A08ADEB10A129029A48, file = EB3335D9BBEE2A026EFD45B2A82B7EBA.
+[2022-02-02 14:15:14,05] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:0:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:15:14,68] [info] Submitting taskId: MIGNON.fastqc-Some(9)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_biocontainers_fastqc_v0_11_5_cv4dd85e91368ede8b162b38f139b556e07b5b3bef0:1, script: s3://2pcdx/scripts/48471dae615118946b7291223fe651b2
+[2022-02-02 14:15:15,10] [info] Submitting taskId: MIGNON.salmon-Some(5)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_salmon_0_13_0--h86b0361_27462989fc48283586fbadf6d94634dda8eb7e61c:1, script: s3://2pcdx/scripts/8bdf708809bc4acc033f40bc521ff8b8
+[2022-02-02 14:15:15,47] [info] Submitting taskId: MIGNON.salmon-Some(3)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_salmon_0_13_0--h86b0361_27462989fc48283586fbadf6d94634dda8eb7e61c:1, script: s3://2pcdx/scripts/2493acf643a7a7ee847a5300e463f74c
+Feb 02, 2022 2:15:15 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+[2022-02-02 14:15:15,90] [info] Submitting taskId: MIGNON.star-Some(3)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_star_2_7_2b--0dffc15adcdc0d741848674ba815492a227e5ec44:1, script: s3://2pcdx/scripts/1c5afe28bca612a2f8de3fc02e703401
+[2022-02-02 14:15:15,98] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.salmon' (scatter index: Some(0), attempt 1)
+[2022-02-02 14:15:15,98] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.fastqc' (scatter index: Some(0), attempt 1)
+[2022-02-02 14:15:15,98] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.star' (scatter index: Some(1), attempt 1)
+Feb 02, 2022 2:15:16 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+[2022-02-02 14:15:16,18] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-BackendCacheHitCopyingActor-68f924a6:MIGNON.star:0:1-4080 [[38;5;2m68f924a6[0mMIGNON.star:0:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:15:16,18] [info] BT-322 68f924a6:MIGNON.star:0:1 cache hit copying success with aggregated hashes: initial = 1081E9EBD8C28465F6A318B96F7F14B4, file = EB3335D9BBEE2A026EFD45B2A82B7EBA.
+[2022-02-02 14:15:16,18] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:0:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:15:16,39] [info] Submitting taskId: MIGNON.salmon-Some(9)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_salmon_0_13_0--h86b0361_27462989fc48283586fbadf6d94634dda8eb7e61c:1, script: s3://2pcdx/scripts/4de72508a09b15abf96bb9eb7bcae342
+[2022-02-02 14:15:16,75] [info] Submitting taskId: MIGNON.star-Some(9)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_star_2_7_2b--0dffc15adcdc0d741848674ba815492a227e5ec44:1, script: s3://2pcdx/scripts/d5e6ba2227204da68f38408b308cc059
+[2022-02-02 14:15:18,36] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.filterBam
+[2022-02-02 14:15:18,89] [info] Assigned new job execution tokens to the following groups: 68f924a6: 1
+[2022-02-02 14:15:18,90] [info] BT-322 68f924a6:MIGNON.filterBam:1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:18,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:9:1]: job id: f262fef9-eb2c-4c66-8c73-197dfc0b24cc
+[2022-02-02 14:15:18,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:9:1]: job id: 0421ae6a-b220-4d26-86ad-c66b44a9cc25
+[2022-02-02 14:15:18,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:5:1]: job id: 834881c6-c372-41aa-86cd-01b725c265c8
+[2022-02-02 14:15:18,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:3:1]: job id: cff02185-16c2-4295-9cca-a9c6dc75409d
+[2022-02-02 14:15:18,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:3:1]: job id: 402bfd47-3579-4185-85b4-b9832d0e15c8
+[2022-02-02 14:15:18,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:9:1]: job id: e0fed2bd-6208-41a8-bb84-901b8a484b54
+[2022-02-02 14:15:18,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:9:1]: Having to fall back to AWS query for status
+[2022-02-02 14:15:18,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:9:1]: Status change from - to Initializing
+[2022-02-02 14:15:18,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:3:1]: Status change from - to Initializing
+[2022-02-02 14:15:18,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:5:1]: Status change from - to Initializing
+[2022-02-02 14:15:18,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:9:1]: Status change from - to Initializing
+[2022-02-02 14:15:18,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:3:1]: Status change from - to Initializing
+[2022-02-02 14:15:18,96] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.star' (scatter index: Some(0), attempt 1)
+[2022-02-02 14:15:18,97] [info] BT-322 68f924a6:MIGNON.filterBam:1:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:15:18,97] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.filterBam:1:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.filterBam:1:1. No copy attempts were made.
+[2022-02-02 14:15:18,98] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:1:1]: [38;5;5msamtools view  -F 4 --threads 4 -O BAM -o P0481_filtered.bam /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-1/cacheCopy/P0481Aligned.sortedByCoord.out.bam[0m
+[2022-02-02 14:15:19,02] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:9:1]: Status change from - to Initializing
+[2022-02-02 14:15:19,17] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:1:1]: [38;5;5msamtools view  -F 4 --threads 4 -O BAM -o P0481_filtered.bam /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-1/cacheCopy/P0481Aligned.sortedByCoord.out.bam[0m
+[2022-02-02 14:15:19,41] [info] Submitting taskId: MIGNON.filterBam-Some(1)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_samtools_1_9--h8571acd_112174fff1535199d19baa07b78190d495e1ac4cee:1, script: s3://2pcdx/scripts/e11ac2f522fb51c4fee06d2d9077511e
+[2022-02-02 14:15:19,95] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:9:1]: Having to fall back to AWS query for status
+[2022-02-02 14:15:21,09] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:9:1]: Having to fall back to AWS query for status
+[2022-02-02 14:15:21,42] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.filterBam
+[2022-02-02 14:15:22,65] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:9:1]: Having to fall back to AWS query for status
+[2022-02-02 14:15:23,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:1:1]: job id: e0362e5b-0e1c-4f19-9ad1-f7b606ff0c01
+[2022-02-02 14:15:23,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:1:1]: Status change from - to Initializing
+[2022-02-02 14:15:24,78] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:9:1]: Having to fall back to AWS query for status
+[2022-02-02 14:15:28,90] [info] Assigned new job execution tokens to the following groups: 68f924a6: 1
+[2022-02-02 14:15:28,91] [info] BT-322 68f924a6:MIGNON.filterBam:0:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:15:29,03] [info] BT-322 68f924a6:MIGNON.filterBam:0:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:15:29,03] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.filterBam:0:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.filterBam:0:1. No copy attempts were made.
+[2022-02-02 14:15:29,04] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:0:1]: [38;5;5msamtools view  -F 4 --threads 4 -O BAM -o P0854_filtered.bam /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-0/cacheCopy/P0854Aligned.sortedByCoord.out.bam[0m
+[2022-02-02 14:15:29,21] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:0:1]: [38;5;5msamtools view  -F 4 --threads 4 -O BAM -o P0854_filtered.bam /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-0/cacheCopy/P0854Aligned.sortedByCoord.out.bam[0m
+[2022-02-02 14:15:29,49] [info] Submitting taskId: MIGNON.filterBam-Some(0)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_samtools_1_9--h8571acd_112174fff1535199d19baa07b78190d495e1ac4cee:1, script: s3://2pcdx/scripts/6cb66e67c5f6a5f55c4b9aa066fc3751
+[2022-02-02 14:15:33,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:0:1]: job id: 18e3d054-303a-44a0-854d-c8af9c102fff
+[2022-02-02 14:15:33,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:0:1]: Status change from - to Initializing
+[2022-02-02 14:16:24,12] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:6:1]: Status change from Initializing to Running
+[2022-02-02 14:16:24,95] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:7:1]: Status change from Initializing to Running
+[2022-02-02 14:16:27,09] [info] BT-322 68f924a6:MIGNON.fastp:2:1 cache hit copying success with aggregated hashes: initial = EAFE236F96FA89106ADD4AC76331DDAD, file = BB1ACA426E23D4DCB247218A3D44B670.
+[2022-02-02 14:16:27,09] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastp:2:1 [[38;5;2m68f924a6[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:16:27,58] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:6:1]: Status change from Initializing to Running
+[2022-02-02 14:16:27,95] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Job results retrieved (CallCached): 'MIGNON.fastp' (scatter index: Some(2), attempt 1)
+[2022-02-02 14:16:29,05] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:6:1]: Status change from Initializing to Running
+[2022-02-02 14:16:29,76] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.fastqc, MIGNON.salmon, MIGNON.star
+[2022-02-02 14:16:32,00] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:5:1]: Status change from Initializing to Running
+[2022-02-02 14:16:32,32] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:4:1]: Status change from Initializing to Running
+[2022-02-02 14:16:33,48] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:7:1]: Status change from Initializing to Running
+[2022-02-02 14:16:34,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:4:1]: Status change from Initializing to Running
+[2022-02-02 14:16:38,90] [info] Assigned new job execution tokens to the following groups: 68f924a6: 3
+[2022-02-02 14:16:38,91] [info] BT-322 68f924a6:MIGNON.salmon:2:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:16:38,91] [info] BT-322 68f924a6:MIGNON.star:2:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:16:38,91] [info] BT-322 68f924a6:MIGNON.fastqc:2:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:16:39,28] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:2:1 [[38;5;2m68f924a6[0m]: Failure copying cache results for job BackendJobDescriptorKey_CommandCallNode_MIGNON.salmon:2:1 (EnhancedCromwellIoException: [Attempted 1 time(s)] - NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: VJ9S33F3SHSWAFRY, Extended Request ID: null))
+[2022-02-02 14:16:39,28] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:2:1 [[38;5;2m68f924a6[0m]: Invalidating cache entry CallCachingEntryId(6248) (Cache entry details: Some(48b59516-50c1-4d13-965b-d9aca61c423e:MIGNON.salmon:60))
+[2022-02-02 14:16:39,29] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:2:1 [[38;5;2m68f924a6[0m]: Failure copying cache results for job BackendJobDescriptorKey_CommandCallNode_MIGNON.fastqc:2:1 (EnhancedCromwellIoException: [Attempted 1 time(s)] - NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: VJ9TSM3VRNB3YDG4, Extended Request ID: null))
+[2022-02-02 14:16:39,29] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:2:1 [[38;5;2m68f924a6[0m]: Invalidating cache entry CallCachingEntryId(6252) (Cache entry details: Some(48b59516-50c1-4d13-965b-d9aca61c423e:MIGNON.fastqc:60))
+[2022-02-02 14:16:39,41] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.salmon:2:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.salmon:2:1. EJEA attempted to copy 1 cache hits before failing. Of these 1 failed to copy and 0 were already blacklisted from previous attempts). Falling back to running job.
+[2022-02-02 14:16:39,41] [info] BT-322 68f924a6:MIGNON.salmon:2:1 cache hit copying failure: 1 failed copy attempts of maximum 1000000 with aggregated hashes: initial = A1BE8E7F69114E325361F95AED7B2AC4, file = 4521540DD46DFD30411F68804350D0FB.
+[2022-02-02 14:16:39,41] [[38;5;220mwarn[0m] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:2:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:16:39,41] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.fastqc:2:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.fastqc:2:1. EJEA attempted to copy 1 cache hits before failing. Of these 1 failed to copy and 0 were already blacklisted from previous attempts). Falling back to running job.
+[2022-02-02 14:16:39,41] [info] BT-322 68f924a6:MIGNON.fastqc:2:1 cache hit copying failure: 1 failed copy attempts of maximum 1000000 with aggregated hashes: initial = 29386760051B53AF1A5B3C8B0403D520, file = CE69F64F7E07A1906358E2B3C7068CC5.
+[2022-02-02 14:16:39,42] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:2:1]: [38;5;5msalmon quant -p 8 -i /cromwell_root/2pcdx/mignon/data/SALMONindex -l A \
+                 -1 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-2/cacheCopy/P0608_1.fastq.gz \
+                 -2 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-2/cacheCopy/P0608_2.fastq.gz \
+                 -o P0608 \[0m
+[2022-02-02 14:16:39,42] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:2:1 [[38;5;2m68f924a6[0m]: Failure copying cache results for job BackendJobDescriptorKey_CommandCallNode_MIGNON.star:2:1 (EnhancedCromwellIoException: [Attempted 1 time(s)] - NoSuchKeyException: The specified key does not exist. (Service: S3, Status Code: 404, Request ID: VJ9Z9V1K7DMP8JKP, Extended Request ID: null))
+[2022-02-02 14:16:39,42] [[38;5;220mwarn[0m] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:2:1 [[38;5;2m68f924a6[0m]: Invalidating cache entry CallCachingEntryId(6284) (Cache entry details: Some(48b59516-50c1-4d13-965b-d9aca61c423e:MIGNON.star:60))
+[2022-02-02 14:16:39,42] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:2:1]: [38;5;5mfastqc -t 2 -o . \
+        \
+       /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-2/cacheCopy/P0608_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-2/cacheCopy/P0608_2.fastq.gz[0m
+[2022-02-02 14:16:39,46] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.star:2:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.star:2:1. EJEA attempted to copy 1 cache hits before failing. Of these 1 failed to copy and 0 were already blacklisted from previous attempts). Falling back to running job.
+[2022-02-02 14:16:39,46] [info] BT-322 68f924a6:MIGNON.star:2:1 cache hit copying failure: 1 failed copy attempts of maximum 1000000 with aggregated hashes: initial = 71B7302CFF2F41B6149871A917F33B71, file = 4521540DD46DFD30411F68804350D0FB.
+[2022-02-02 14:16:39,46] [[38;5;220mwarn[0m] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:2:1]: Unrecognized runtime attribute keys: docker_volume
+[2022-02-02 14:16:39,47] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:2:1]: [38;5;5mSTAR --runThreadN 16 \
+     --genomeDir /cromwell_root/2pcdx/mignon/data/STARindex \
+     --readFilesIn /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-2/cacheCopy/P0608_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-2/cacheCopy/P0608_2.fastq.gz \
+     --readFilesCommand zcat \
+     --outSAMtype BAM SortedByCoordinate \
+     --outFileNamePrefix P0608 \
+     limitBAMsortRAM 26[0m
+[2022-02-02 14:16:39,54] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:2:1]: [38;5;5mfastqc -t 2 -o . \
+        \
+       /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-2/cacheCopy/P0608_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-2/cacheCopy/P0608_2.fastq.gz[0m
+[2022-02-02 14:16:39,56] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:2:1]: [38;5;5msalmon quant -p 8 -i /cromwell_root/2pcdx/mignon/data/SALMONindex -l A \
+                 -1 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-2/cacheCopy/P0608_1.fastq.gz \
+                 -2 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-2/cacheCopy/P0608_2.fastq.gz \
+                 -o P0608 \[0m
+[2022-02-02 14:16:39,60] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:2:1]: [38;5;5mSTAR --runThreadN 16 \
+     --genomeDir /cromwell_root/2pcdx/mignon/data/STARindex \
+     --readFilesIn /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-2/cacheCopy/P0608_1.fastq.gz /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-fastp/shard-2/cacheCopy/P0608_2.fastq.gz \
+     --readFilesCommand zcat \
+     --outSAMtype BAM SortedByCoordinate \
+     --outFileNamePrefix P0608 \
+     limitBAMsortRAM 26[0m
+[2022-02-02 14:16:39,81] [info] Submitting taskId: MIGNON.fastqc-Some(2)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_biocontainers_fastqc_v0_11_5_cv4dd85e91368ede8b162b38f139b556e07b5b3bef0:1, script: s3://2pcdx/scripts/1e0b9e8a685d62279b23a409c43db909
+[2022-02-02 14:16:40,20] [info] Submitting taskId: MIGNON.salmon-Some(2)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_salmon_0_13_0--h86b0361_27462989fc48283586fbadf6d94634dda8eb7e61c:1, script: s3://2pcdx/scripts/04fa5c10d5dac3ec0439533ae1b54774
+[2022-02-02 14:16:40,61] [info] Submitting taskId: MIGNON.star-Some(2)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_star_2_7_2b--0dffc15adcdc0d741848674ba815492a227e5ec44:1, script: s3://2pcdx/scripts/1091e9ed7b799fc613706c12c9f0c9da
+[2022-02-02 14:16:43,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:2:1]: job id: 2b830d73-4d4c-4e35-b294-36eaaaa3a798
+[2022-02-02 14:16:43,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:2:1]: job id: d5749fba-e9b4-4391-a3a6-545be57ba9ec
+[2022-02-02 14:16:43,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:2:1]: job id: b0bcda2a-668d-4889-88a3-f4ff6cb3b078
+[2022-02-02 14:16:43,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:2:1]: Status change from - to Initializing
+[2022-02-02 14:16:43,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:2:1]: Status change from - to Initializing
+[2022-02-02 14:16:43,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:2:1]: Status change from - to Initializing
+[2022-02-02 14:17:40,88] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.ensembldb:NA:1]: Having to fall back to AWS query for status
+[2022-02-02 14:17:40,98] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.ensembldb:NA:1]: Status change from Running to Succeeded
+[2022-02-02 14:18:26,69] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:3:1]: Status change from Initializing to Running
+[2022-02-02 14:18:36,11] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:9:1]: Status change from Initializing to Running
+[2022-02-02 14:18:37,00] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:5:1]: Status change from Initializing to Running
+[2022-02-02 14:18:37,67] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:2:1]: Status change from Initializing to Running
+[2022-02-02 14:18:37,97] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:7:1]: Status change from Initializing to Running
+[2022-02-02 14:18:39,24] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:3:1]: Status change from Initializing to Running
+[2022-02-02 14:18:42,17] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:5:1]: Status change from Initializing to Running
+[2022-02-02 14:18:42,18] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:8:1]: Status change from Initializing to Running
+[2022-02-02 14:18:51,63] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:0:1]: Status change from Initializing to Running
+[2022-02-02 14:18:54,76] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:10:1]: Status change from Initializing to Running
+[2022-02-02 14:19:02,21] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:9:1]: Status change from Initializing to Running
+[2022-02-02 14:19:06,97] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:9:1]: Status change from Initializing to Running
+[2022-02-02 14:19:08,34] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:3:1]: Status change from Initializing to Running
+[2022-02-02 14:19:15,44] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:1:1]: Status change from Initializing to Running
+[2022-02-02 14:20:51,94] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:2:1]: Status change from Initializing to Running
+[2022-02-02 14:25:52,87] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:3:1]: Having to fall back to AWS query for status
+[2022-02-02 14:25:52,95] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:3:1]: Status change from Running to Succeeded
+[2022-02-02 14:26:05,07] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:2:1]: Status change from Initializing to Running
+[2022-02-02 14:26:30,56] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:1:1]: Having to fall back to AWS query for status
+[2022-02-02 14:26:30,64] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:1:1]: Status change from Running to Succeeded
+[2022-02-02 14:26:35,68] [info] 158de101-1821-459e-aefa-fa865a87b440-SubWorkflowActor-SubWorkflow-VariantCalling:1:1 [[38;5;2m158de101[0m]: Starting VariantCalling.SplitIntervals
+[2022-02-02 14:26:37,72] [info] 158de101-1821-459e-aefa-fa865a87b440-SubWorkflowActor-SubWorkflow-VariantCalling:1:1 [[38;5;2m158de101[0m]: Starting VariantCalling.IndexBam
+[2022-02-02 14:26:38,90] [info] Assigned new job execution tokens to the following groups: 68f924a6: 2
+[2022-02-02 14:26:38,92] [info] BT-322 158de101:VariantCalling.IndexBam:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:26:39,18] [info] BT-322 158de101:VariantCalling.SplitIntervals:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:26:39,65] [info] BT-322 158de101:VariantCalling.IndexBam:-1:1 cache hit copying success with aggregated hashes: initial = 0A5A01152CE4B5F550A44022ACD3E711, file = 8EA267E17CFB906BC5E185728A252ED5.
+[2022-02-02 14:26:39,65] [info] 158de101-1821-459e-aefa-fa865a87b440-EngineJobExecutionActor-VariantCalling.IndexBam:NA:1 [[38;5;2m158de101[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:26:39,94] [info] 158de101-1821-459e-aefa-fa865a87b440-SubWorkflowActor-SubWorkflow-VariantCalling:1:1 [[38;5;2m158de101[0m]: Job results retrieved (CallCached): 'VariantCalling.IndexBam' (scatter index: None, attempt 1)
+[2022-02-02 14:26:39,98] [info] BT-322 158de101:VariantCalling.SplitIntervals:-1:1 cache hit copying success with aggregated hashes: initial = D7B1671FE22C3EA331B871C1B202C0B8, file = 1E79F452D5C544543903E4E9E8185B10.
+[2022-02-02 14:26:39,98] [info] 158de101-1821-459e-aefa-fa865a87b440-EngineJobExecutionActor-VariantCalling.SplitIntervals:NA:1 [[38;5;2m158de101[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:26:41,19] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:4:1]: Having to fall back to AWS query for status
+[2022-02-02 14:26:41,28] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:4:1]: Status change from Running to Succeeded
+[2022-02-02 14:26:42,95] [info] 158de101-1821-459e-aefa-fa865a87b440-SubWorkflowActor-SubWorkflow-VariantCalling:1:1 [[38;5;2m158de101[0m]: Job results retrieved (CallCached): 'VariantCalling.SplitIntervals' (scatter index: None, attempt 1)
+[2022-02-02 14:26:43,84] [info] 158de101-1821-459e-aefa-fa865a87b440-SubWorkflowActor-SubWorkflow-VariantCalling:1:1 [[38;5;2m158de101[0m]: Starting VariantCalling.AddReadGroup
+[2022-02-02 14:26:48,89] [info] Assigned new job execution tokens to the following groups: 68f924a6: 1
+[2022-02-02 14:26:49,06] [info] BT-322 158de101:VariantCalling.AddReadGroup:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:27:17,21] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:0:1]: Having to fall back to AWS query for status
+[2022-02-02 14:27:17,29] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:0:1]: Status change from Running to Succeeded
+[2022-02-02 14:27:21,10] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:8:1]: Having to fall back to AWS query for status
+[2022-02-02 14:27:21,19] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:8:1]: Status change from Running to Succeeded
+[2022-02-02 14:27:23,59] [info] 538eab3f-7dbf-4e47-8459-6d6475fb3a79-SubWorkflowActor-SubWorkflow-VariantCalling:0:1 [[38;5;2m538eab3f[0m]: Starting VariantCalling.SplitIntervals
+[2022-02-02 14:27:25,63] [info] 538eab3f-7dbf-4e47-8459-6d6475fb3a79-SubWorkflowActor-SubWorkflow-VariantCalling:0:1 [[38;5;2m538eab3f[0m]: Starting VariantCalling.IndexBam
+[2022-02-02 14:27:26,65] [info] 58f0480a-7a56-4214-94a9-38156e835323-SubWorkflowActor-SubWorkflow-VariantCalling:8:1 [[38;5;2m58f0480a[0m]: Starting VariantCalling.SplitIntervals
+[2022-02-02 14:27:28,69] [info] 58f0480a-7a56-4214-94a9-38156e835323-SubWorkflowActor-SubWorkflow-VariantCalling:8:1 [[38;5;2m58f0480a[0m]: Starting VariantCalling.IndexBam
+[2022-02-02 14:27:28,89] [info] Assigned new job execution tokens to the following groups: 68f924a6: 4
+[2022-02-02 14:27:28,90] [info] BT-322 58f0480a:VariantCalling.IndexBam:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:27:28,90] [info] BT-322 538eab3f:VariantCalling.SplitIntervals:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:27:28,90] [info] BT-322 58f0480a:VariantCalling.SplitIntervals:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:27:28,90] [info] BT-322 538eab3f:VariantCalling.IndexBam:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:27:29,28] [info] BT-322 58f0480a:VariantCalling.SplitIntervals:-1:1 cache hit copying success with aggregated hashes: initial = D7B1671FE22C3EA331B871C1B202C0B8, file = 1E79F452D5C544543903E4E9E8185B10.
+[2022-02-02 14:27:29,28] [info] 58f0480a-7a56-4214-94a9-38156e835323-EngineJobExecutionActor-VariantCalling.SplitIntervals:NA:1 [[38;5;2m58f0480a[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:27:29,39] [info] BT-322 538eab3f:VariantCalling.SplitIntervals:-1:1 cache hit copying success with aggregated hashes: initial = D7B1671FE22C3EA331B871C1B202C0B8, file = 1E79F452D5C544543903E4E9E8185B10.
+[2022-02-02 14:27:29,39] [info] 538eab3f-7dbf-4e47-8459-6d6475fb3a79-EngineJobExecutionActor-VariantCalling.SplitIntervals:NA:1 [[38;5;2m538eab3f[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:27:29,73] [info] BT-322 58f0480a:VariantCalling.IndexBam:-1:1 cache hit copying success with aggregated hashes: initial = F98E05840C0178F867ED41137066E058, file = 9DBE2E36FB797B5ACB9A95DD1845C763.
+[2022-02-02 14:27:29,73] [info] 58f0480a-7a56-4214-94a9-38156e835323-EngineJobExecutionActor-VariantCalling.IndexBam:NA:1 [[38;5;2m58f0480a[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:27:29,99] [info] BT-322 538eab3f:VariantCalling.IndexBam:-1:1 cache hit copying success with aggregated hashes: initial = 1499A2D3EE1D429FC0D2BEA485152D0D, file = 25FFC6F08ED429E4B06D1ED046EB3DD3.
+[2022-02-02 14:27:29,99] [info] 538eab3f-7dbf-4e47-8459-6d6475fb3a79-EngineJobExecutionActor-VariantCalling.IndexBam:NA:1 [[38;5;2m538eab3f[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:27:30,98] [info] 58f0480a-7a56-4214-94a9-38156e835323-SubWorkflowActor-SubWorkflow-VariantCalling:8:1 [[38;5;2m58f0480a[0m]: Job results retrieved (CallCached): 'VariantCalling.SplitIntervals' (scatter index: None, attempt 1)
+[2022-02-02 14:27:30,98] [info] 538eab3f-7dbf-4e47-8459-6d6475fb3a79-SubWorkflowActor-SubWorkflow-VariantCalling:0:1 [[38;5;2m538eab3f[0m]: Job results retrieved (CallCached): 'VariantCalling.IndexBam' (scatter index: None, attempt 1)
+[2022-02-02 14:27:30,99] [info] 538eab3f-7dbf-4e47-8459-6d6475fb3a79-SubWorkflowActor-SubWorkflow-VariantCalling:0:1 [[38;5;2m538eab3f[0m]: Job results retrieved (CallCached): 'VariantCalling.SplitIntervals' (scatter index: None, attempt 1)
+[2022-02-02 14:27:30,99] [info] 58f0480a-7a56-4214-94a9-38156e835323-SubWorkflowActor-SubWorkflow-VariantCalling:8:1 [[38;5;2m58f0480a[0m]: Job results retrieved (CallCached): 'VariantCalling.IndexBam' (scatter index: None, attempt 1)
+[2022-02-02 14:27:34,81] [info] 538eab3f-7dbf-4e47-8459-6d6475fb3a79-SubWorkflowActor-SubWorkflow-VariantCalling:0:1 [[38;5;2m538eab3f[0m]: Starting VariantCalling.AddReadGroup
+[2022-02-02 14:27:34,82] [info] 58f0480a-7a56-4214-94a9-38156e835323-SubWorkflowActor-SubWorkflow-VariantCalling:8:1 [[38;5;2m58f0480a[0m]: Starting VariantCalling.AddReadGroup
+[2022-02-02 14:27:38,90] [info] Assigned new job execution tokens to the following groups: 68f924a6: 2
+[2022-02-02 14:27:38,91] [info] BT-322 538eab3f:VariantCalling.AddReadGroup:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:27:38,91] [info] BT-322 58f0480a:VariantCalling.AddReadGroup:-1:1 is eligible for call caching with read = true and write = true
+Feb 02, 2022 2:27:39 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-VariantCalling/shard-135/VariantCalling/60c7134b-7403-4a6c-b77d-12eb6c152bd1/call-AddReadGroup/P0375.reordered.withRG.bam, objectSize = 7559512157, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-VariantCalling/shard-8/VariantCalling/58f0480a-7a56-4214-94a9-38156e835323/call-AddReadGroup/cacheCopy/P0375.reordered.withRG.bam, options = [REPLACE_EXISTING]
+Feb 02, 2022 2:27:39 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+Feb 02, 2022 2:27:39 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-VariantCalling/shard-20/VariantCalling/4005066f-e484-429d-ba44-c8b3f9619d5f/call-AddReadGroup/P0854.reordered.withRG.bam, objectSize = 6521528528, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-VariantCalling/shard-0/VariantCalling/538eab3f-7dbf-4e47-8459-6d6475fb3a79/call-AddReadGroup/cacheCopy/P0854.reordered.withRG.bam, options = [REPLACE_EXISTING]
+Feb 02, 2022 2:27:39 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+Feb 02, 2022 2:27:42 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+Feb 02, 2022 2:27:43 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+[2022-02-02 14:27:43,06] [info] BT-322 58f0480a:VariantCalling.AddReadGroup:-1:1 cache hit copying success with aggregated hashes: initial = 623038DF8A6E331FBA8D63E8CD2721C0, file = D8793C13E918A157983AAD31379568C4.
+[2022-02-02 14:27:43,06] [info] 58f0480a-7a56-4214-94a9-38156e835323-EngineJobExecutionActor-VariantCalling.AddReadGroup:NA:1 [[38;5;2m58f0480a[0m]: Call cache hit process had 0 total hit failures before completing successfully
+Feb 02, 2022 2:27:44 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+Feb 02, 2022 2:27:44 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+[2022-02-02 14:27:44,53] [info] BT-322 538eab3f:VariantCalling.AddReadGroup:-1:1 cache hit copying success with aggregated hashes: initial = 8219B43A434295ADF7F53AFCC18CA02A, file = 94E0EC9645DC21C1B9D7601F68F54CAF.
+[2022-02-02 14:27:44,53] [info] 538eab3f-7dbf-4e47-8459-6d6475fb3a79-EngineJobExecutionActor-VariantCalling.AddReadGroup:NA:1 [[38;5;2m538eab3f[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:27:45,45] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:9:1]: Having to fall back to AWS query for status
+[2022-02-02 14:27:45,53] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:9:1]: Status change from Running to Succeeded
+[2022-02-02 14:27:45,97] [info] 538eab3f-7dbf-4e47-8459-6d6475fb3a79-SubWorkflowActor-SubWorkflow-VariantCalling:0:1 [[38;5;2m538eab3f[0m]: Job results retrieved (CallCached): 'VariantCalling.AddReadGroup' (scatter index: None, attempt 1)
+[2022-02-02 14:27:45,97] [info] 58f0480a-7a56-4214-94a9-38156e835323-SubWorkflowActor-SubWorkflow-VariantCalling:8:1 [[38;5;2m58f0480a[0m]: Job results retrieved (CallCached): 'VariantCalling.AddReadGroup' (scatter index: None, attempt 1)
+[2022-02-02 14:27:49,09] [info] 538eab3f-7dbf-4e47-8459-6d6475fb3a79-SubWorkflowActor-SubWorkflow-VariantCalling:0:1 [[38;5;2m538eab3f[0m]: Starting VariantCalling.MarkDuplicates
+[2022-02-02 14:27:49,10] [info] 58f0480a-7a56-4214-94a9-38156e835323-SubWorkflowActor-SubWorkflow-VariantCalling:8:1 [[38;5;2m58f0480a[0m]: Starting VariantCalling.MarkDuplicates
+[2022-02-02 14:27:58,25] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:2:1]: Having to fall back to AWS query for status
+[2022-02-02 14:27:58,33] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:2:1]: Status change from Running to Succeeded
+[2022-02-02 14:27:58,89] [info] Assigned new job execution tokens to the following groups: 68f924a6: 2
+[2022-02-02 14:27:58,90] [info] BT-322 538eab3f:VariantCalling.MarkDuplicates:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:27:58,90] [info] BT-322 58f0480a:VariantCalling.MarkDuplicates:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:27:59,08] [info] BT-322 58f0480a:VariantCalling.MarkDuplicates:-1:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:27:59,08] [info] 58f0480a-7a56-4214-94a9-38156e835323-EngineJobExecutionActor-VariantCalling.MarkDuplicates:NA:1 [[38;5;2m58f0480a[0m]: Could not copy a suitable cache hit for 58f0480a:VariantCalling.MarkDuplicates:-1:1. No copy attempts were made.
+[2022-02-02 14:27:59,08] [info] BT-322 538eab3f:VariantCalling.MarkDuplicates:-1:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:27:59,08] [info] 538eab3f-7dbf-4e47-8459-6d6475fb3a79-EngineJobExecutionActor-VariantCalling.MarkDuplicates:NA:1 [[38;5;2m538eab3f[0m]: Could not copy a suitable cache hit for 538eab3f:VariantCalling.MarkDuplicates:-1:1. No copy attempts were made.
+[2022-02-02 14:27:59,09] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m58f0480a[0mVariantCalling.MarkDuplicates:NA:1]: [38;5;5mjava -jar /usr/picard/picard.jar MarkDuplicates \
+        INPUT=/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-VariantCalling/shard-8/VariantCalling/58f0480a-7a56-4214-94a9-38156e835323/call-AddReadGroup/cacheCopy/P0375.reordered.withRG.bam \
+        OUTPUT=P0375.reordered.dedup.bam \
+        CREATE_INDEX=true \
+        VALIDATION_STRINGENCY=SILENT \
+        METRICS_FILE=P0375.reordered.dedup.metrics[0m
+[2022-02-02 14:27:59,09] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m538eab3f[0mVariantCalling.MarkDuplicates:NA:1]: [38;5;5mjava -jar /usr/picard/picard.jar MarkDuplicates \
+        INPUT=/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-VariantCalling/shard-0/VariantCalling/538eab3f-7dbf-4e47-8459-6d6475fb3a79/call-AddReadGroup/cacheCopy/P0854.reordered.withRG.bam \
+        OUTPUT=P0854.reordered.dedup.bam \
+        CREATE_INDEX=true \
+        VALIDATION_STRINGENCY=SILENT \
+        METRICS_FILE=P0854.reordered.dedup.metrics[0m
+[2022-02-02 14:27:59,23] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m58f0480a[0mVariantCalling.MarkDuplicates:NA:1]: [38;5;5mjava -jar /usr/picard/picard.jar MarkDuplicates \
+        INPUT=/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-VariantCalling/shard-8/VariantCalling/58f0480a-7a56-4214-94a9-38156e835323/call-AddReadGroup/cacheCopy/P0375.reordered.withRG.bam \
+        OUTPUT=P0375.reordered.dedup.bam \
+        CREATE_INDEX=true \
+        VALIDATION_STRINGENCY=SILENT \
+        METRICS_FILE=P0375.reordered.dedup.metrics[0m
+[2022-02-02 14:27:59,24] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m538eab3f[0mVariantCalling.MarkDuplicates:NA:1]: [38;5;5mjava -jar /usr/picard/picard.jar MarkDuplicates \
+        INPUT=/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-VariantCalling/shard-0/VariantCalling/538eab3f-7dbf-4e47-8459-6d6475fb3a79/call-AddReadGroup/cacheCopy/P0854.reordered.withRG.bam \
+        OUTPUT=P0854.reordered.dedup.bam \
+        CREATE_INDEX=true \
+        VALIDATION_STRINGENCY=SILENT \
+        METRICS_FILE=P0854.reordered.dedup.metrics[0m
+[2022-02-02 14:27:59,51] [info] Submitting taskId: VariantCalling.MarkDuplicates-None-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_broadinstitute_picard_2_20_726c7076fb2a94fbc4069f8e7eaf22b501b1c8305:1, script: s3://2pcdx/scripts/870e91118ca3e91341d6873d4a13b19c
+[2022-02-02 14:27:59,87] [info] Submitting taskId: VariantCalling.MarkDuplicates-None-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_broadinstitute_picard_2_20_726c7076fb2a94fbc4069f8e7eaf22b501b1c8305:1, script: s3://2pcdx/scripts/5b124fdf14726283718e73b3525131b4
+[2022-02-02 14:28:03,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m538eab3f[0mVariantCalling.MarkDuplicates:NA:1]: job id: 5019c393-aafb-4744-9e74-3a0f2b11f94d
+[2022-02-02 14:28:03,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m58f0480a[0mVariantCalling.MarkDuplicates:NA:1]: job id: a9476ee0-06e4-4a72-9c52-aef15bfba56c
+[2022-02-02 14:28:03,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m58f0480a[0mVariantCalling.MarkDuplicates:NA:1]: Status change from - to Initializing
+[2022-02-02 14:28:03,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m538eab3f[0mVariantCalling.MarkDuplicates:NA:1]: Status change from - to Initializing
+[2022-02-02 14:28:13,54] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m58f0480a[0mVariantCalling.MarkDuplicates:NA:1]: Status change from Initializing to Running
+[2022-02-02 14:28:15,22] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m538eab3f[0mVariantCalling.MarkDuplicates:NA:1]: Status change from Initializing to Running
+[2022-02-02 14:28:15,71] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:6:1]: Having to fall back to AWS query for status
+[2022-02-02 14:28:15,79] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:6:1]: Status change from Running to Succeeded
+[2022-02-02 14:28:49,47] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:4:1]: Having to fall back to AWS query for status
+[2022-02-02 14:28:49,55] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:4:1]: Status change from Running to Succeeded
+[2022-02-02 14:29:56,43] [info] BT-322 158de101:VariantCalling.AddReadGroup:-1:1 cache hit copying success with aggregated hashes: initial = 44C04044C6388CA11B8BA26539171D52, file = E2B1A328F2F8610F3F873E38E5625422.
+[2022-02-02 14:29:56,43] [info] 158de101-1821-459e-aefa-fa865a87b440-EngineJobExecutionActor-VariantCalling.AddReadGroup:NA:1 [[38;5;2m158de101[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:29:57,94] [info] 158de101-1821-459e-aefa-fa865a87b440-SubWorkflowActor-SubWorkflow-VariantCalling:1:1 [[38;5;2m158de101[0m]: Job results retrieved (CallCached): 'VariantCalling.AddReadGroup' (scatter index: None, attempt 1)
+[2022-02-02 14:30:01,72] [info] 158de101-1821-459e-aefa-fa865a87b440-SubWorkflowActor-SubWorkflow-VariantCalling:1:1 [[38;5;2m158de101[0m]: Starting VariantCalling.MarkDuplicates
+[2022-02-02 14:30:08,90] [info] Assigned new job execution tokens to the following groups: 68f924a6: 1
+[2022-02-02 14:30:08,91] [info] BT-322 158de101:VariantCalling.MarkDuplicates:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:30:09,03] [info] BT-322 158de101:VariantCalling.MarkDuplicates:-1:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:30:09,03] [info] 158de101-1821-459e-aefa-fa865a87b440-EngineJobExecutionActor-VariantCalling.MarkDuplicates:NA:1 [[38;5;2m158de101[0m]: Could not copy a suitable cache hit for 158de101:VariantCalling.MarkDuplicates:-1:1. No copy attempts were made.
+[2022-02-02 14:30:09,04] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m158de101[0mVariantCalling.MarkDuplicates:NA:1]: [38;5;5mjava -jar /usr/picard/picard.jar MarkDuplicates \
+        INPUT=/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-VariantCalling/shard-1/VariantCalling/158de101-1821-459e-aefa-fa865a87b440/call-AddReadGroup/cacheCopy/P0481.reordered.withRG.bam \
+        OUTPUT=P0481.reordered.dedup.bam \
+        CREATE_INDEX=true \
+        VALIDATION_STRINGENCY=SILENT \
+        METRICS_FILE=P0481.reordered.dedup.metrics[0m
+[2022-02-02 14:30:09,23] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m158de101[0mVariantCalling.MarkDuplicates:NA:1]: [38;5;5mjava -jar /usr/picard/picard.jar MarkDuplicates \
+        INPUT=/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-VariantCalling/shard-1/VariantCalling/158de101-1821-459e-aefa-fa865a87b440/call-AddReadGroup/cacheCopy/P0481.reordered.withRG.bam \
+        OUTPUT=P0481.reordered.dedup.bam \
+        CREATE_INDEX=true \
+        VALIDATION_STRINGENCY=SILENT \
+        METRICS_FILE=P0481.reordered.dedup.metrics[0m
+[2022-02-02 14:30:09,51] [info] Submitting taskId: VariantCalling.MarkDuplicates-None-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_broadinstitute_picard_2_20_726c7076fb2a94fbc4069f8e7eaf22b501b1c8305:1, script: s3://2pcdx/scripts/a9165641fafb16e169daa0865a1e2e34
+[2022-02-02 14:30:13,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m158de101[0mVariantCalling.MarkDuplicates:NA:1]: job id: c5de465e-c8fe-4393-b31d-5c7b354693e4
+[2022-02-02 14:30:13,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m158de101[0mVariantCalling.MarkDuplicates:NA:1]: Status change from - to Initializing
+[2022-02-02 14:30:19,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m158de101[0mVariantCalling.MarkDuplicates:NA:1]: Status change from Initializing to Running
+[2022-02-02 14:30:32,76] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:10:1]: Having to fall back to AWS query for status
+[2022-02-02 14:30:32,85] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:10:1]: Status change from Running to Succeeded
+[2022-02-02 14:30:38,41] [info] f5b23425-d4ad-4c01-ab38-0398a3b87b1d-SubWorkflowActor-SubWorkflow-VariantCalling:10:1 [[38;5;2mf5b23425[0m]: Starting VariantCalling.SplitIntervals
+[2022-02-02 14:30:38,89] [info] Assigned new job execution tokens to the following groups: 68f924a6: 1
+[2022-02-02 14:30:38,90] [info] BT-322 f5b23425:VariantCalling.SplitIntervals:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:30:39,81] [info] BT-322 f5b23425:VariantCalling.SplitIntervals:-1:1 cache hit copying success with aggregated hashes: initial = D7B1671FE22C3EA331B871C1B202C0B8, file = 1E79F452D5C544543903E4E9E8185B10.
+[2022-02-02 14:30:39,81] [info] f5b23425-d4ad-4c01-ab38-0398a3b87b1d-EngineJobExecutionActor-VariantCalling.SplitIntervals:NA:1 [[38;5;2mf5b23425[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:30:39,94] [info] f5b23425-d4ad-4c01-ab38-0398a3b87b1d-SubWorkflowActor-SubWorkflow-VariantCalling:10:1 [[38;5;2mf5b23425[0m]: Job results retrieved (CallCached): 'VariantCalling.SplitIntervals' (scatter index: None, attempt 1)
+[2022-02-02 14:30:40,45] [info] f5b23425-d4ad-4c01-ab38-0398a3b87b1d-SubWorkflowActor-SubWorkflow-VariantCalling:10:1 [[38;5;2mf5b23425[0m]: Starting VariantCalling.IndexBam
+[2022-02-02 14:30:40,70] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:5:1]: Having to fall back to AWS query for status
+[2022-02-02 14:30:40,78] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:5:1]: Status change from Running to Succeeded
+[2022-02-02 14:30:48,89] [info] Assigned new job execution tokens to the following groups: 68f924a6: 1
+[2022-02-02 14:30:48,90] [info] BT-322 f5b23425:VariantCalling.IndexBam:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:30:49,55] [info] BT-322 f5b23425:VariantCalling.IndexBam:-1:1 cache hit copying success with aggregated hashes: initial = 24A83E3A13EDB245D588FBC19E738E47, file = 6B864B0D25B47F31E9D30D3DE3CFCD5A.
+[2022-02-02 14:30:49,55] [info] f5b23425-d4ad-4c01-ab38-0398a3b87b1d-EngineJobExecutionActor-VariantCalling.IndexBam:NA:1 [[38;5;2mf5b23425[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:30:51,94] [info] f5b23425-d4ad-4c01-ab38-0398a3b87b1d-SubWorkflowActor-SubWorkflow-VariantCalling:10:1 [[38;5;2mf5b23425[0m]: Job results retrieved (CallCached): 'VariantCalling.IndexBam' (scatter index: None, attempt 1)
+[2022-02-02 14:30:55,75] [info] f5b23425-d4ad-4c01-ab38-0398a3b87b1d-SubWorkflowActor-SubWorkflow-VariantCalling:10:1 [[38;5;2mf5b23425[0m]: Starting VariantCalling.AddReadGroup
+[2022-02-02 14:30:58,89] [info] Assigned new job execution tokens to the following groups: 68f924a6: 1
+[2022-02-02 14:30:58,90] [info] BT-322 f5b23425:VariantCalling.AddReadGroup:-1:1 is eligible for call caching with read = true and write = true
+Feb 02, 2022 2:30:59 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Attempting multipart copy as part of call cache hit: source = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/5f4bdaf9-5bc8-4abe-ae65-eef0e9a51b5b/call-VariantCalling/shard-140/VariantCalling/a5df56a2-e347-4bb2-a490-78809348fce3/call-AddReadGroup/P0723.reordered.withRG.bam, objectSize = 7089221808, target = s3://s3.amazonaws.com/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-VariantCalling/shard-10/VariantCalling/f5b23425-d4ad-4c01-ab38-0398a3b87b1d/call-AddReadGroup/cacheCopy/P0723.reordered.withRG.bam, options = [REPLACE_EXISTING]
+Feb 02, 2022 2:30:59 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Allocating work stealing pool with 500 threads
+Feb 02, 2022 2:31:01 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Shutting down work stealing pool
+Feb 02, 2022 2:31:01 PM org.lerch.s3fs.S3FileSystemProvider multiPartCopy
+INFO: Multipart copy complete with status code: 200
+[2022-02-02 14:31:01,40] [info] BT-322 f5b23425:VariantCalling.AddReadGroup:-1:1 cache hit copying success with aggregated hashes: initial = C7F70C6C31940CD2E6E676031A37E92B, file = F2595E7551E9F08EBFF45FE54908FC4F.
+[2022-02-02 14:31:01,40] [info] f5b23425-d4ad-4c01-ab38-0398a3b87b1d-EngineJobExecutionActor-VariantCalling.AddReadGroup:NA:1 [[38;5;2mf5b23425[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:31:03,97] [info] f5b23425-d4ad-4c01-ab38-0398a3b87b1d-SubWorkflowActor-SubWorkflow-VariantCalling:10:1 [[38;5;2mf5b23425[0m]: Job results retrieved (CallCached): 'VariantCalling.AddReadGroup' (scatter index: None, attempt 1)
+[2022-02-02 14:31:07,99] [info] f5b23425-d4ad-4c01-ab38-0398a3b87b1d-SubWorkflowActor-SubWorkflow-VariantCalling:10:1 [[38;5;2mf5b23425[0m]: Starting VariantCalling.MarkDuplicates
+[2022-02-02 14:31:08,90] [info] Assigned new job execution tokens to the following groups: 68f924a6: 1
+[2022-02-02 14:31:08,91] [info] BT-322 f5b23425:VariantCalling.MarkDuplicates:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:31:09,04] [info] BT-322 f5b23425:VariantCalling.MarkDuplicates:-1:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:31:09,04] [info] f5b23425-d4ad-4c01-ab38-0398a3b87b1d-EngineJobExecutionActor-VariantCalling.MarkDuplicates:NA:1 [[38;5;2mf5b23425[0m]: Could not copy a suitable cache hit for f5b23425:VariantCalling.MarkDuplicates:-1:1. No copy attempts were made.
+[2022-02-02 14:31:09,05] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2mf5b23425[0mVariantCalling.MarkDuplicates:NA:1]: [38;5;5mjava -jar /usr/picard/picard.jar MarkDuplicates \
+        INPUT=/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-VariantCalling/shard-10/VariantCalling/f5b23425-d4ad-4c01-ab38-0398a3b87b1d/call-AddReadGroup/cacheCopy/P0723.reordered.withRG.bam \
+        OUTPUT=P0723.reordered.dedup.bam \
+        CREATE_INDEX=true \
+        VALIDATION_STRINGENCY=SILENT \
+        METRICS_FILE=P0723.reordered.dedup.metrics[0m
+[2022-02-02 14:31:09,21] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2mf5b23425[0mVariantCalling.MarkDuplicates:NA:1]: [38;5;5mjava -jar /usr/picard/picard.jar MarkDuplicates \
+        INPUT=/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-VariantCalling/shard-10/VariantCalling/f5b23425-d4ad-4c01-ab38-0398a3b87b1d/call-AddReadGroup/cacheCopy/P0723.reordered.withRG.bam \
+        OUTPUT=P0723.reordered.dedup.bam \
+        CREATE_INDEX=true \
+        VALIDATION_STRINGENCY=SILENT \
+        METRICS_FILE=P0723.reordered.dedup.metrics[0m
+[2022-02-02 14:31:09,40] [info] Submitting taskId: VariantCalling.MarkDuplicates-None-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_broadinstitute_picard_2_20_726c7076fb2a94fbc4069f8e7eaf22b501b1c8305:1, script: s3://2pcdx/scripts/8363031b8b61c08320c3857f118df17c
+[2022-02-02 14:31:13,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2mf5b23425[0mVariantCalling.MarkDuplicates:NA:1]: job id: d1579c41-673c-48a5-aacc-7c6dfcf8283b
+[2022-02-02 14:31:13,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2mf5b23425[0mVariantCalling.MarkDuplicates:NA:1]: Status change from - to Initializing
+[2022-02-02 14:31:20,07] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2mf5b23425[0mVariantCalling.MarkDuplicates:NA:1]: Status change from Initializing to Running
+[2022-02-02 14:35:01,16] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:9:1]: Having to fall back to AWS query for status
+[2022-02-02 14:35:01,24] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:9:1]: Status change from Running to Succeeded
+[2022-02-02 14:35:25,13] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:3:1]: Having to fall back to AWS query for status
+[2022-02-02 14:35:25,21] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:3:1]: Status change from Running to Succeeded
+[2022-02-02 14:37:32,46] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:7:1]: Having to fall back to AWS query for status
+[2022-02-02 14:37:32,54] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.salmon:7:1]: Status change from Running to Succeeded
+[2022-02-02 14:37:37,61] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.txImport
+[2022-02-02 14:37:38,89] [info] Assigned new job execution tokens to the following groups: 68f924a6: 1
+[2022-02-02 14:37:38,95] [info] BT-322 68f924a6:MIGNON.txImport:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:37:38,95] [info] BT-322 68f924a6:MIGNON.txImport:-1:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:37:38,96] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.txImport:NA:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.txImport:-1:1. No copy attempts were made.
+[2022-02-02 14:37:38,99] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.txImport:NA:1]: [38;5;5mRscript /cromwell_root/2pcdx/mignon/data/scripts/tximport.r --tx2gene /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-ensembldb/tx2gene.tsv \
+--quantFiles /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-0/cacheCopy/P0854/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-1/cacheCopy/P0481/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-2/P0608/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-3/P1318/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-4/P0866/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-5/P0922/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-6/P1544/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-7/P1376/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-8/cacheCopy/P0375/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-9/P0565/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-10/cacheCopy/P0723/quant.sf \
+--sampleIds P0854,P0481,P0608,P1318,P0866,P0922,P1544,P1376,P0375,P0565,P0723 \
+--outFile counts.tsv[0m
+[2022-02-02 14:37:39,24] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.txImport:NA:1]: [38;5;5mRscript /cromwell_root/2pcdx/mignon/data/scripts/tximport.r --tx2gene /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-ensembldb/tx2gene.tsv \
+--quantFiles /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-0/cacheCopy/P0854/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-1/cacheCopy/P0481/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-2/P0608/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-3/P1318/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-4/P0866/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-5/P0922/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-6/P1544/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-7/P1376/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-8/cacheCopy/P0375/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-9/P0565/quant.sf,/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-salmon/shard-10/cacheCopy/P0723/quant.sf \
+--sampleIds P0854,P0481,P0608,P1318,P0866,P0922,P1544,P1376,P0375,P0565,P0723 \
+--outFile counts.tsv[0m
+[2022-02-02 14:37:39,49] [info] Submitting taskId: MIGNON.txImport-None-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_bioconductor-tximport_1_10_0--r351_0a3146cb28c89fc0541c3eebf7b2de57d26526063:1, script: s3://2pcdx/scripts/05c73e089db7e02afe4d688d9ec9ded8
+[2022-02-02 14:37:43,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.txImport:NA:1]: job id: fcfc69cd-a696-4f5e-9e24-5cda5bcc8f90
+[2022-02-02 14:37:43,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.txImport:NA:1]: Status change from - to Initializing
+[2022-02-02 14:37:54,80] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.txImport:NA:1]: Status change from Initializing to Running
+[2022-02-02 14:38:51,36] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:3:1]: Having to fall back to AWS query for status
+[2022-02-02 14:38:51,43] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:3:1]: Status change from Running to Succeeded
+[2022-02-02 14:38:54,12] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.filterBam
+[2022-02-02 14:38:58,90] [info] Assigned new job execution tokens to the following groups: 68f924a6: 1
+[2022-02-02 14:38:58,91] [info] BT-322 68f924a6:MIGNON.filterBam:3:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:38:59,02] [info] BT-322 68f924a6:MIGNON.filterBam:3:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:38:59,03] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.filterBam:3:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.filterBam:3:1. No copy attempts were made.
+[2022-02-02 14:38:59,03] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:3:1]: [38;5;5msamtools view  -F 4 --threads 4 -O BAM -o P1318_filtered.bam /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-3/P1318Aligned.sortedByCoord.out.bam[0m
+[2022-02-02 14:38:59,20] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:3:1]: [38;5;5msamtools view  -F 4 --threads 4 -O BAM -o P1318_filtered.bam /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-3/P1318Aligned.sortedByCoord.out.bam[0m
+[2022-02-02 14:38:59,42] [info] Submitting taskId: MIGNON.filterBam-Some(3)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_samtools_1_9--h8571acd_112174fff1535199d19baa07b78190d495e1ac4cee:1, script: s3://2pcdx/scripts/36f8f16ef2ffc8119100d4120fbee79e
+[2022-02-02 14:39:00,02] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.txImport:NA:1]: Having to fall back to AWS query for status
+[2022-02-02 14:39:00,12] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.txImport:NA:1]: Status change from Running to Succeeded
+[2022-02-02 14:39:03,30] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.edgeR
+[2022-02-02 14:39:03,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:3:1]: job id: 136b1e48-5029-47c9-b445-1dbb6dfc72f0
+[2022-02-02 14:39:03,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:3:1]: Status change from - to Initializing
+[2022-02-02 14:39:08,90] [info] Assigned new job execution tokens to the following groups: 68f924a6: 1
+[2022-02-02 14:39:08,97] [info] BT-322 68f924a6:MIGNON.edgeR:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:39:08,97] [info] BT-322 68f924a6:MIGNON.edgeR:-1:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:39:08,97] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.edgeR:NA:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.edgeR:-1:1. No copy attempts were made.
+[2022-02-02 14:39:08,98] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.edgeR:NA:1]: [38;5;5mRscript /cromwell_root/2pcdx/mignon/data/scripts/edgeR.r --counts /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-txImport/counts.tsv \
+--samples P0854,P0481,P0608,P1318,P0866,P0922,P1544,P1376,P0375,P0565,P0723 \
+--group Problem,Problem,Problem,Problem,Control,Control,Control,Control,Control,Control \
+--minCounts 15[0m
+[2022-02-02 14:39:09,16] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.edgeR:NA:1]: [38;5;5mRscript /cromwell_root/2pcdx/mignon/data/scripts/edgeR.r --counts /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-txImport/counts.tsv \
+--samples P0854,P0481,P0608,P1318,P0866,P0922,P1544,P1376,P0375,P0565,P0723 \
+--group Problem,Problem,Problem,Problem,Control,Control,Control,Control,Control,Control \
+--minCounts 15[0m
+[2022-02-02 14:39:09,41] [info] Submitting taskId: MIGNON.edgeR-None-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_bioconductor-edger_3_28_0--r36he1b5a44_0e04063de94d4e46b2aca45f7c598e251626ba60b:1, script: s3://2pcdx/scripts/f28069aca39a1d7944c69d14d0da507f
+[2022-02-02 14:39:13,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.edgeR:NA:1]: job id: 8d004dfe-1e6c-4cdc-984a-243657066030
+[2022-02-02 14:39:13,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.edgeR:NA:1]: Status change from - to Initializing
+[2022-02-02 14:39:18,48] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.edgeR:NA:1]: Status change from Initializing to Running
+[2022-02-02 14:39:19,23] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:3:1]: Status change from Initializing to Running
+[2022-02-02 14:39:36,68] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:2:1]: Having to fall back to AWS query for status
+[2022-02-02 14:39:36,76] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:2:1]: Status change from Running to Succeeded
+[2022-02-02 14:40:44,26] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.edgeR:NA:1]: Having to fall back to AWS query for status
+[2022-02-02 14:40:44,36] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.edgeR:NA:1]: Status change from Running to Failed
+[2022-02-02 14:41:32,98] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:5:1]: Having to fall back to AWS query for status
+[2022-02-02 14:41:33,06] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:5:1]: Status change from Running to Succeeded
+[2022-02-02 14:42:08,00] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:6:1]: Having to fall back to AWS query for status
+[2022-02-02 14:42:08,08] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.fastqc:6:1]: Status change from Running to Succeeded
+[2022-02-02 14:43:57,82] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:3:1]: Having to fall back to AWS query for status
+[2022-02-02 14:43:57,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:3:1]: Status change from Running to Succeeded
+[2022-02-02 14:44:05,23] [info] 028dba2a-2cca-43d3-9f73-5655275406e4-SubWorkflowActor-SubWorkflow-VariantCalling:3:1 [[38;5;2m028dba2a[0m]: Starting VariantCalling.SplitIntervals
+[2022-02-02 14:44:07,27] [info] 028dba2a-2cca-43d3-9f73-5655275406e4-SubWorkflowActor-SubWorkflow-VariantCalling:3:1 [[38;5;2m028dba2a[0m]: Starting VariantCalling.IndexBam
+[2022-02-02 14:44:08,90] [info] Assigned new job execution tokens to the following groups: 68f924a6: 2
+[2022-02-02 14:44:08,91] [info] BT-322 028dba2a:VariantCalling.SplitIntervals:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:44:08,91] [info] BT-322 028dba2a:VariantCalling.IndexBam:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:44:09,05] [info] BT-322 028dba2a:VariantCalling.IndexBam:-1:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:44:09,05] [info] 028dba2a-2cca-43d3-9f73-5655275406e4-EngineJobExecutionActor-VariantCalling.IndexBam:NA:1 [[38;5;2m028dba2a[0m]: Could not copy a suitable cache hit for 028dba2a:VariantCalling.IndexBam:-1:1. No copy attempts were made.
+[2022-02-02 14:44:09,06] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m028dba2a[0mVariantCalling.IndexBam:NA:1]: [38;5;5msamtools index -@ 1 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-filterBam/shard-3/P1318_filtered.bam P1318_filtered.bam.bai[0m
+[2022-02-02 14:44:09,23] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m028dba2a[0mVariantCalling.IndexBam:NA:1]: [38;5;5msamtools index -@ 1 /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-filterBam/shard-3/P1318_filtered.bam P1318_filtered.bam.bai[0m
+[2022-02-02 14:44:09,32] [info] BT-322 028dba2a:VariantCalling.SplitIntervals:-1:1 cache hit copying success with aggregated hashes: initial = D7B1671FE22C3EA331B871C1B202C0B8, file = 1E79F452D5C544543903E4E9E8185B10.
+[2022-02-02 14:44:09,32] [info] 028dba2a-2cca-43d3-9f73-5655275406e4-EngineJobExecutionActor-VariantCalling.SplitIntervals:NA:1 [[38;5;2m028dba2a[0m]: Call cache hit process had 0 total hit failures before completing successfully
+[2022-02-02 14:44:09,46] [info] Submitting taskId: VariantCalling.IndexBam-None-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_samtools_1_9--h8571acd_112174fff1535199d19baa07b78190d495e1ac4cee:1, script: s3://2pcdx/scripts/bfdf205c7ca115d2aac5e3e9ca6c31f9
+[2022-02-02 14:44:09,94] [info] 028dba2a-2cca-43d3-9f73-5655275406e4-SubWorkflowActor-SubWorkflow-VariantCalling:3:1 [[38;5;2m028dba2a[0m]: Job results retrieved (CallCached): 'VariantCalling.SplitIntervals' (scatter index: None, attempt 1)
+[2022-02-02 14:44:13,15] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:5:1]: Having to fall back to AWS query for status
+[2022-02-02 14:44:13,23] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:5:1]: Status change from Running to Succeeded
+[2022-02-02 14:44:13,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m028dba2a[0mVariantCalling.IndexBam:NA:1]: job id: f164988b-3b3b-44de-8143-976c269c8880
+[2022-02-02 14:44:13,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m028dba2a[0mVariantCalling.IndexBam:NA:1]: Status change from - to Initializing
+[2022-02-02 14:44:18,48] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.filterBam
+[2022-02-02 14:44:18,89] [info] Assigned new job execution tokens to the following groups: 68f924a6: 1
+[2022-02-02 14:44:18,90] [info] BT-322 68f924a6:MIGNON.filterBam:5:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:44:18,98] [info] BT-322 68f924a6:MIGNON.filterBam:5:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:44:18,98] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.filterBam:5:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.filterBam:5:1. No copy attempts were made.
+[2022-02-02 14:44:18,98] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:5:1]: [38;5;5msamtools view  -F 4 --threads 4 -O BAM -o P0922_filtered.bam /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-5/P0922Aligned.sortedByCoord.out.bam[0m
+[2022-02-02 14:44:19,17] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:5:1]: [38;5;5msamtools view  -F 4 --threads 4 -O BAM -o P0922_filtered.bam /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-5/P0922Aligned.sortedByCoord.out.bam[0m
+[2022-02-02 14:44:19,28] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m028dba2a[0mVariantCalling.IndexBam:NA:1]: Status change from Initializing to Running
+[2022-02-02 14:44:19,47] [info] Submitting taskId: MIGNON.filterBam-Some(5)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_samtools_1_9--h8571acd_112174fff1535199d19baa07b78190d495e1ac4cee:1, script: s3://2pcdx/scripts/c9f830bd49750bd1f47ede876d3b71f2
+[2022-02-02 14:44:23,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:5:1]: job id: 6904fda7-638b-4023-9f8c-9832abcc0365
+[2022-02-02 14:44:23,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:5:1]: Status change from - to Initializing
+[2022-02-02 14:44:28,16] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:5:1]: Status change from Initializing to Running
+[2022-02-02 14:45:42,39] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m028dba2a[0mVariantCalling.IndexBam:NA:1]: Having to fall back to AWS query for status
+[2022-02-02 14:45:42,47] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m028dba2a[0mVariantCalling.IndexBam:NA:1]: Status change from Running to Succeeded
+[2022-02-02 14:45:46,21] [info] 028dba2a-2cca-43d3-9f73-5655275406e4-SubWorkflowActor-SubWorkflow-VariantCalling:3:1 [[38;5;2m028dba2a[0m]: Starting VariantCalling.AddReadGroup
+[2022-02-02 14:45:48,90] [info] Assigned new job execution tokens to the following groups: 68f924a6: 1
+[2022-02-02 14:45:48,91] [info] BT-322 028dba2a:VariantCalling.AddReadGroup:-1:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:45:49,03] [info] BT-322 028dba2a:VariantCalling.AddReadGroup:-1:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:45:49,03] [info] 028dba2a-2cca-43d3-9f73-5655275406e4-EngineJobExecutionActor-VariantCalling.AddReadGroup:NA:1 [[38;5;2m028dba2a[0m]: Could not copy a suitable cache hit for 028dba2a:VariantCalling.AddReadGroup:-1:1. No copy attempts were made.
+[2022-02-02 14:45:49,04] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m028dba2a[0mVariantCalling.AddReadGroup:NA:1]: [38;5;5mjava -jar /usr/picard/picard.jar AddOrReplaceReadGroups \
+        INPUT=/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-filterBam/shard-3/P1318_filtered.bam \
+        OUTPUT=P1318.reordered.withRG.bam \
+        SORT_ORDER=coordinate \
+        CREATE_INDEX=true \
+        RGID=P1318 \
+        RGSM=P1318 \
+        RGLB=Fragment \
+        RGPL=Unknown \
+        RGCN=Unknown \
+        RGPU=P1318[0m
+[2022-02-02 14:45:49,25] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m028dba2a[0mVariantCalling.AddReadGroup:NA:1]: [38;5;5mjava -jar /usr/picard/picard.jar AddOrReplaceReadGroups \
+        INPUT=/cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-filterBam/shard-3/P1318_filtered.bam \
+        OUTPUT=P1318.reordered.withRG.bam \
+        SORT_ORDER=coordinate \
+        CREATE_INDEX=true \
+        RGID=P1318 \
+        RGSM=P1318 \
+        RGLB=Fragment \
+        RGPL=Unknown \
+        RGCN=Unknown \
+        RGPU=P1318[0m
+[2022-02-02 14:45:49,54] [info] Submitting taskId: VariantCalling.AddReadGroup-None-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_broadinstitute_picard_2_20_726c7076fb2a94fbc4069f8e7eaf22b501b1c8305:1, script: s3://2pcdx/scripts/1e8e6dcbc50193df9d1f9caa15b89f7a
+[2022-02-02 14:45:53,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m028dba2a[0mVariantCalling.AddReadGroup:NA:1]: job id: df968995-de55-4f9c-be76-08371c78a0d3
+[2022-02-02 14:45:53,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m028dba2a[0mVariantCalling.AddReadGroup:NA:1]: Status change from - to Initializing
+[2022-02-02 14:46:01,47] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m028dba2a[0mVariantCalling.AddReadGroup:NA:1]: Status change from Initializing to Running
+[2022-02-02 14:46:35,48] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:4:1]: Having to fall back to AWS query for status
+[2022-02-02 14:46:35,56] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:4:1]: Status change from Running to Succeeded
+[2022-02-02 14:46:39,24] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.filterBam
+[2022-02-02 14:46:48,90] [info] Assigned new job execution tokens to the following groups: 68f924a6: 1
+[2022-02-02 14:46:48,91] [info] BT-322 68f924a6:MIGNON.filterBam:4:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:46:49,02] [info] BT-322 68f924a6:MIGNON.filterBam:4:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:46:49,02] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.filterBam:4:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.filterBam:4:1. No copy attempts were made.
+[2022-02-02 14:46:49,02] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:4:1]: [38;5;5msamtools view  -F 4 --threads 4 -O BAM -o P0866_filtered.bam /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-4/P0866Aligned.sortedByCoord.out.bam[0m
+[2022-02-02 14:46:49,17] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:4:1]: [38;5;5msamtools view  -F 4 --threads 4 -O BAM -o P0866_filtered.bam /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-4/P0866Aligned.sortedByCoord.out.bam[0m
+[2022-02-02 14:46:49,49] [info] Submitting taskId: MIGNON.filterBam-Some(4)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_samtools_1_9--h8571acd_112174fff1535199d19baa07b78190d495e1ac4cee:1, script: s3://2pcdx/scripts/3c46027df7c1570aab824a34d818b7ae
+[2022-02-02 14:46:53,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:4:1]: job id: 3caee42b-d623-4b4f-b788-18b5bf7dc00f
+[2022-02-02 14:46:53,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:4:1]: Status change from - to Initializing
+[2022-02-02 14:47:03,46] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:4:1]: Status change from Initializing to Running
+[2022-02-02 14:48:10,10] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:6:1]: Having to fall back to AWS query for status
+[2022-02-02 14:48:10,18] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:6:1]: Status change from Running to Succeeded
+[2022-02-02 14:48:15,12] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.filterBam
+[2022-02-02 14:48:18,90] [info] Assigned new job execution tokens to the following groups: 68f924a6: 1
+[2022-02-02 14:48:18,91] [info] BT-322 68f924a6:MIGNON.filterBam:6:1 is eligible for call caching with read = true and write = true
+[2022-02-02 14:48:19,03] [info] BT-322 68f924a6:MIGNON.filterBam:6:1 cache hit copying nomatch: could not find a suitable cache hit.
+[2022-02-02 14:48:19,03] [info] 68f924a6-4ab6-49a9-97d1-1aae929a2ea3-EngineJobExecutionActor-MIGNON.filterBam:6:1 [[38;5;2m68f924a6[0m]: Could not copy a suitable cache hit for 68f924a6:MIGNON.filterBam:6:1. No copy attempts were made.
+[2022-02-02 14:48:19,03] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:6:1]: [38;5;5msamtools view  -F 4 --threads 4 -O BAM -o P1544_filtered.bam /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-6/P1544Aligned.sortedByCoord.out.bam[0m
+[2022-02-02 14:48:19,22] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:6:1]: [38;5;5msamtools view  -F 4 --threads 4 -O BAM -o P1544_filtered.bam /cromwell_root/2pcdx/mignon/cromwell-runDir/MIGNON/68f924a6-4ab6-49a9-97d1-1aae929a2ea3/call-star/shard-6/P1544Aligned.sortedByCoord.out.bam[0m
+[2022-02-02 14:48:19,52] [info] Submitting taskId: MIGNON.filterBam-Some(6)-1, job definition : arn:aws:batch:us-east-1:580035673108:job-definition/cromwell_quay_io_biocontainers_samtools_1_9--h8571acd_112174fff1535199d19baa07b78190d495e1ac4cee:1, script: s3://2pcdx/scripts/dae1a452548af56b9481f7eb45f900a9
+[2022-02-02 14:48:23,91] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:6:1]: job id: 62452f72-fa2d-4e95-b08f-02c9951ca219
+[2022-02-02 14:48:23,92] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:6:1]: Status change from - to Initializing
+[2022-02-02 14:48:26,34] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.filterBam:6:1]: Status change from Initializing to Running
+[2022-02-02 14:49:38,87] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:9:1]: Having to fall back to AWS query for status
+[2022-02-02 14:49:38,94] [info] AwsBatchAsyncBackendJobExecutionActor [[38;5;2m68f924a6[0mMIGNON.star:9:1]: Status change from Running to Succeeded
+[2022-02-02 14:49:42,84] [info] WorkflowExecutionActor-68f924a6-4ab6-49a9-97d1-1aae929a2ea3 [[38;5;2m68f924a6[0m]: Starting MIGNON.filterBam
