@@ -1,0 +1,74 @@
+{
+    "MIGNON.execution_mode": "salmon-star",
+    "MIGNON.is_paired_end": true,
+    "MIGNON.do_vc": true,
+    "MIGNON.input_fastq_r1": [
+        "s3://2pcdx/trimmed_fastq/2PCDx-0110-CD2_S97.trim.R1.fq.gz",
+        "s3://2pcdx/trimmed_fastq/2PCDx-1115-CD2.trim.R1.fq.gz"
+    ],
+    "MIGNON.input_fastq_r2": [
+        "s3://2pcdx/trimmed_fastq/2PCDx-0110-CD2_S97.trim.R2.fq.gz",
+        "s3://2pcdx/trimmed_fastq/2PCDx-1115-CD2.trim.R2.fq.gz"
+    ],
+    "MIGNON.sample_id": [
+        "P0110",
+        "P1115"
+    ],
+    "MIGNON.group": [
+        "Problem",
+        "Control"
+    ],
+    "MIGNON.gtf_file": "s3://2pcdx/mignon/data/Homo_sapiens.GRCh38.101.gtf",
+    "MIGNON.ref_fasta": "s3://2pcdx/mignon/data/Homo_sapiens.GRCh38.dna.primary_assembly.fa",
+    "MIGNON.ref_fasta_index": "s3://2pcdx/mignon/data/Homo_sapiens.GRCh38.dna.primary_assembly.fa.fai",
+    "MIGNON.ref_dict": "s3://2pcdx/mignon/data/Homo_sapiens.GRCh38.dna.primary_assembly.dict",
+    "MIGNON.vep_cache_dir": "s3://2pcdx/mignon/data/vep_cache.tar.gz",
+    "MIGNON.db_snp_vcf": "s3://2pcdx/mignon/data/All_20170710.vcf.gz",
+    "MIGNON.db_snp_vcf_index": "s3://2pcdx/mignon/data/All_20170710.vcf.gz.tbi",
+    "MIGNON.known_vcfs": [
+        "s3://2pcdx/mignon/data/All_20170710.vcf.gz"
+    ],
+    "MIGNON.known_vcfs_indices": [
+        "s3://2pcdx/mignon/data/All_20170710.vcf.gz.tbi"
+    ],
+    "MIGNON.star_index_path": "s3://2pcdx/mignon/data/STARindex",
+    "MIGNON.salmon_index_path": "s3://2pcdx/mignon/data/SALMONindex",
+    "MIGNON.edger_script": "s3://2pcdx/mignon/data/scripts/edgeR.r",
+    "MIGNON.tximport_script": "s3://2pcdx/mignon/data/scripts/tximport.r",
+    "MIGNON.hipathia_script": "s3://2pcdx/mignon/data/scripts/hipathia.r",
+    "MIGNON.ensemblTx_script": "s3://2pcdx/mignon/data/scripts/ensembldb.r",
+    "MIGNON.fastp_cpu": 4,
+    "MIGNON.fastp_mem": "16GB",
+    "MIGNON.fastp_additional_parameters": "",
+    "MIGNON.fastqc_cpu": 2,
+    "MIGNON.fastqc_mem": "8GB",
+    "MIGNON.fastqc_additional_parameters": "",
+    "MIGNON.hisat2_cpu": 4,
+    "MIGNON.hisat2_mem": "16GB",
+    "MIGNON.hisat2_additional_parameters": "",
+    "MIGNON.sam2bam_cpu": 4,
+    "MIGNON.sam2bam_mem": "16GB",
+    "MIGNON.sam2bam_additional_parameters": "",
+    "MIGNON.star_cpu": 16,
+    "MIGNON.star_mem": "64GB",
+    "MIGNON.star_additional_parameters": "limitBAMsortRAM 26",
+    "MIGNON.salmon_cpu": 8,
+    "MIGNON.salmon_mem": "32GB",
+    "MIGNON.salmon_additional_parameters": "",
+    "MIGNON.featureCounts_cpu": 4,
+    "MIGNON.featureCounts_mem": "8GB",
+    "MIGNON.featureCounts_additional_parameters": "",
+    "MIGNON.vep_cpu": 8,
+    "MIGNON.vep_mem": "32GB",
+    "MIGNON.ensemblTx_cpu": 1,
+    "MIGNON.ensemblTx_mem": "16GB",
+    "MIGNON.edger_cpu": 1,
+    "MIGNON.edger_mem": "8GB",
+    "MIGNON.tximport_cpu": 1,
+    "MIGNON.tximport_mem": "8GB",
+    "MIGNON.hipathia_cpu": 1,
+    "MIGNON.hipathia_mem": "16GB",
+    "MIGNON.filterBam_cpu": 4,
+    "MIGNON.filterBam_mem": "16GB",
+    "MIGNON.filterBam_additional_parameters": ""
+}
